@@ -1,0 +1,46 @@
+[0.124s] Invoking command in '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy /usr/bin/cmake /home/diablo/diablo_torqueHDRL/src/jointctrlsdk -DCMAKE_INSTALL_PREFIX=/home/diablo/diablo_torqueHDRL/install/jointctrlsdk
+[0.916s] -- The C compiler identification is GNU 9.4.0
+[1.735s] -- The CXX compiler identification is GNU 9.4.0
+[1.771s] -- Check for working C compiler: /usr/bin/cc
+[2.176s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.182s] -- Detecting C compiler ABI info
+[2.568s] -- Detecting C compiler ABI info - done
+[2.612s] -- Detecting C compile features
+[2.614s] -- Detecting C compile features - done
+[2.629s] -- Check for working CXX compiler: /usr/bin/c++
+[3.047s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.052s] -- Detecting CXX compiler ABI info
+[3.483s] -- Detecting CXX compiler ABI info - done
+[3.527s] -- Detecting CXX compile features
+[3.529s] -- Detecting CXX compile features - done
+[3.573s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.769s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.771s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.215s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.746s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.762s] -- Added test 'lint_cmake' to check CMake code style
+[5.771s] -- Added test 'xmllint' to check XML markup files
+[5.788s] -- Configuring done
+[5.800s] -- Generating done
+[5.804s] -- Build files have been written to: /home/diablo/diablo_torqueHDRL/build/jointctrlsdk
+[5.820s] Invoked command in '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy /usr/bin/cmake /home/diablo/diablo_torqueHDRL/src/jointctrlsdk -DCMAKE_INSTALL_PREFIX=/home/diablo/diablo_torqueHDRL/install/jointctrlsdk
+[5.832s] Invoking command in '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/diablo/diablo_torqueHDRL/build/jointctrlsdk -- -j4 -l4
+[6.021s] Invoked command in '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/diablo/diablo_torqueHDRL/build/jointctrlsdk -- -j4 -l4
+[6.205s] Invoking command in '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy /usr/bin/cmake --install /home/diablo/diablo_torqueHDRL/build/jointctrlsdk
+[6.248s] -- Install configuration: ""
+[6.249s] -- Installing: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/ament_index/resource_index/package_run_dependencies/jointctrlsdk
+[6.251s] -- Installing: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/ament_index/resource_index/parent_prefix_path/jointctrlsdk
+[6.253s] -- Installing: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/environment/ament_prefix_path.sh
+[6.255s] -- Installing: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/environment/ament_prefix_path.dsv
+[6.256s] -- Installing: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/environment/path.sh
+[6.257s] -- Installing: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/environment/path.dsv
+[6.259s] -- Installing: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/local_setup.bash
+[6.260s] -- Installing: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/local_setup.sh
+[6.261s] -- Installing: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/local_setup.zsh
+[6.262s] -- Installing: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/local_setup.dsv
+[6.263s] -- Installing: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/package.dsv
+[6.265s] -- Installing: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/ament_index/resource_index/packages/jointctrlsdk
+[6.267s] -- Installing: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/cmake/jointctrlsdkConfig.cmake
+[6.268s] -- Installing: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/cmake/jointctrlsdkConfig-version.cmake
+[6.269s] -- Installing: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/package.xml
+[6.278s] Invoked command in '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy /usr/bin/cmake --install /home/diablo/diablo_torqueHDRL/build/jointctrlsdk

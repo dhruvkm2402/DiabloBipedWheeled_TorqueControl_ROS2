@@ -1,0 +1,46 @@
+[0.074s] Invoking command in '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/diablo/diablo_torqueHDRL/build/jointctrlsdk -- -j4 -l4
+[0.412s] [ 66%] Built target jointctrlsdk_core
+[0.484s] [35m[1mScanning dependencies of target diablo_torquesubscriber[0m
+[0.651s] [ 83%] [32mBuilding CXX object CMakeFiles/diablo_torquesubscriber.dir/src/diablo_torque.cpp.o[0m
+[6.678s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[6.678s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[6.679s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[6.680s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[6.681s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[6.681s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[6.682s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[6.682s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[6.683s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[6.683s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[6.684s]                  from [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:6[m[K:
+[6.684s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:[m[K In member function ‘[01m[Kvoid TorqueSubscriber::torque_callback(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[6.684s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:29:9:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kget_c_string()[m[K’
+[6.685s]    29 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger()), "Received Torque Values");
+[6.685s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[6.686s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:36[m[K,
+[6.686s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[6.686s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[6.687s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[6.687s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[6.688s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[6.688s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[6.689s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[6.689s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[6.689s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[6.690s]                  from [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:6[m[K:
+[6.690s] [01m[K/opt/ros/foxy/include/rclcpp/utilities.hpp:296:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst char* rclcpp::get_c_string(const char*)[m[K’
+[6.691s]   296 | [01;36m[Kget_c_string[m[K(const char * string_in);
+[6.691s]       | [01;36m[K^~~~~~~~~~~~[m[K
+[6.692s] [01m[K/opt/ros/foxy/include/rclcpp/utilities.hpp:296:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[6.692s] [01m[K/opt/ros/foxy/include/rclcpp/utilities.hpp:305:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst char* rclcpp::get_c_string(const string&)[m[K’
+[6.692s]   305 | [01;36m[Kget_c_string[m[K(const std::string & string_in);
+[6.693s]       | [01;36m[K^~~~~~~~~~~~[m[K
+[6.693s] [01m[K/opt/ros/foxy/include/rclcpp/utilities.hpp:305:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[6.694s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:29:40:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K,[m[K’ token
+[6.694s]    29 |         RCLCPP_INFO(this->get_logger())[01;31m[K,[m[K "Received Torque Values");
+[6.695s]       |                                        [01;31m[K^[m[K
+[6.695s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:29:40:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+[12.665s] make[2]: *** [CMakeFiles/diablo_torquesubscriber.dir/build.make:63: CMakeFiles/diablo_torquesubscriber.dir/src/diablo_torque.cpp.o] Error 1
+[12.666s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/diablo_torquesubscriber.dir/all] Error 2
+[12.666s] make: *** [Makefile:141: all] Error 2
+[12.680s] Invoked command in '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/diablo/diablo_torqueHDRL/build/jointctrlsdk -- -j4 -l4

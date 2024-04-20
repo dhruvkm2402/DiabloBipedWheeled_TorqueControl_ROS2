@@ -1,0 +1,299 @@
+[0.000000] (-) TimerEvent: {}
+[0.001049] (-) JobUnselected: {'identifier': 'torque_interfaces'}
+[0.001360] (jointctrlsdk) JobQueued: {'identifier': 'jointctrlsdk', 'dependencies': OrderedDict([('torque_interfaces', '/home/diablo/diablo_torqueHDRL/install/torque_interfaces')])}
+[0.002142] (jointctrlsdk) JobStarted: {'identifier': 'jointctrlsdk'}
+[0.076147] (jointctrlsdk) JobProgress: {'identifier': 'jointctrlsdk', 'progress': 'cmake'}
+[0.079302] (jointctrlsdk) JobProgress: {'identifier': 'jointctrlsdk', 'progress': 'build'}
+[0.082317] (jointctrlsdk) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk', '--', '-j4', '-l4'], 'cwd': '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en_US'), ('USER', 'diablo'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1118'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib:/home/diablo/diablo_ws/install/diablo_body/lib:/home/diablo/diablo_ws/install/diablo_utils/lib:/home/diablo/diablo_ws/install/motion_msgs/lib:/home/diablo/diablo_ws/install/ception_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/diablo'), ('OLDPWD', '/home/diablo/diablo_torqueHDRL/src'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('COLCON_PREFIX_PATH', '/home/diablo/diablo_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'diablo'), ('WINDOWID', '54525958'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/diablo-desktop:@/tmp/.ICE-unix/986,unix/diablo-desktop:/tmp/.ICE-unix/986'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/diablo/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '5'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/diablo'), ('AMENT_PREFIX_PATH', '/home/diablo/diablo_torqueHDRL/install/torque_interfaces:/home/diablo/diablo_ws/install/diablo_ctrl:/home/diablo/diablo_ws/install/diablo_body:/home/diablo/diablo_ws/install/diablo_utils:/home/diablo/diablo_ws/install/diablo_teleop:/home/diablo/diablo_ws/install/motion_msgs:/home/diablo/diablo_ws/install/ception_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('XDG_VTNR', '7'), ('PWD', '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/mate:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/python3.8/site-packages:/home/diablo/diablo_ws/install/diablo_teleop/lib/python3.8/site-packages:/home/diablo/diablo_ws/install/motion_msgs/lib/python3.8/site-packages:/home/diablo/diablo_ws/install/ception_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/diablo/diablo_torqueHDRL/install/torque_interfaces:/home/diablo/diablo_ws/install/diablo_ctrl:/home/diablo/diablo_ws/install/diablo_body:/home/diablo/diablo_ws/install/diablo_utils:/home/diablo/diablo_ws/install/motion_msgs:/home/diablo/diablo_ws/install/ception_msgs:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy')]), 'shell': False}
+[0.099472] (-) TimerEvent: {}
+[0.200922] (-) TimerEvent: {}
+[0.235718] (jointctrlsdk) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.301030] (-) TimerEvent: {}
+[0.349298] (jointctrlsdk) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.401199] (-) TimerEvent: {}
+[0.501989] (-) TimerEvent: {}
+[0.602758] (-) TimerEvent: {}
+[0.703472] (-) TimerEvent: {}
+[0.804331] (-) TimerEvent: {}
+[0.905152] (-) TimerEvent: {}
+[1.005951] (-) TimerEvent: {}
+[1.106781] (-) TimerEvent: {}
+[1.207714] (-) TimerEvent: {}
+[1.308478] (-) TimerEvent: {}
+[1.409287] (-) TimerEvent: {}
+[1.510097] (-) TimerEvent: {}
+[1.551917] (jointctrlsdk) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.566427] (jointctrlsdk) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.610251] (-) TimerEvent: {}
+[1.710997] (-) TimerEvent: {}
+[1.811825] (-) TimerEvent: {}
+[1.912874] (-) TimerEvent: {}
+[2.013633] (-) TimerEvent: {}
+[2.114416] (-) TimerEvent: {}
+[2.215288] (-) TimerEvent: {}
+[2.316042] (-) TimerEvent: {}
+[2.416886] (-) TimerEvent: {}
+[2.517624] (-) TimerEvent: {}
+[2.618487] (-) TimerEvent: {}
+[2.719400] (-) TimerEvent: {}
+[2.757125] (jointctrlsdk) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.819595] (-) TimerEvent: {}
+[2.920409] (-) TimerEvent: {}
+[2.965588] (jointctrlsdk) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[2.972781] (jointctrlsdk) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.020623] (-) TimerEvent: {}
+[3.121493] (-) TimerEvent: {}
+[3.222299] (-) TimerEvent: {}
+[3.323661] (-) TimerEvent: {}
+[3.424562] (-) TimerEvent: {}
+[3.525444] (-) TimerEvent: {}
+[3.586109] (jointctrlsdk) StdoutLine: {'line': b'-- Found torque_interfaces: 0.0.0 (/home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake)\n'}
+[3.616528] (jointctrlsdk) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[3.625641] (-) TimerEvent: {}
+[3.726356] (-) TimerEvent: {}
+[3.827042] (-) TimerEvent: {}
+[3.917024] (jointctrlsdk) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)\n'}
+[3.927206] (-) TimerEvent: {}
+[3.951461] (jointctrlsdk) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.962909] (jointctrlsdk) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.964003] (jointctrlsdk) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/diablo/diablo_torqueHDRL/src/jointctrlsdk/include\n'}
+[3.964563] (jointctrlsdk) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.974480] (jointctrlsdk) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.975140] (jointctrlsdk) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.979799] (jointctrlsdk) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.991377] (jointctrlsdk) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.991988] (jointctrlsdk) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.994088] (jointctrlsdk) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.023054] (jointctrlsdk) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.027413] (-) TimerEvent: {}
+[4.076636] (jointctrlsdk) StdoutLine: {'line': b'-- Generating done\n'}
+[4.085240] (jointctrlsdk) StdoutLine: {'line': b'-- Build files have been written to: /home/diablo/diablo_torqueHDRL/build/jointctrlsdk\n'}
+[4.127635] (-) TimerEvent: {}
+[4.228577] (-) TimerEvent: {}
+[4.317826] (jointctrlsdk) StdoutLine: {'line': b'[ 66%] Built target jointctrlsdk_core\n'}
+[4.328906] (-) TimerEvent: {}
+[4.386687] (jointctrlsdk) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target diablo_torquesubscriber\x1b[0m\n'}
+[4.429052] (-) TimerEvent: {}
+[4.529815] (-) TimerEvent: {}
+[4.564528] (jointctrlsdk) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/diablo_torquesubscriber.dir/src/diablo_torque.cpp.o\x1b[0m\n'}
+[4.630030] (-) TimerEvent: {}
+[4.730810] (-) TimerEvent: {}
+[4.831550] (-) TimerEvent: {}
+[4.932388] (-) TimerEvent: {}
+[5.033249] (-) TimerEvent: {}
+[5.134022] (-) TimerEvent: {}
+[5.234781] (-) TimerEvent: {}
+[5.335599] (-) TimerEvent: {}
+[5.436412] (-) TimerEvent: {}
+[5.537425] (-) TimerEvent: {}
+[5.638283] (-) TimerEvent: {}
+[5.739253] (-) TimerEvent: {}
+[5.840086] (-) TimerEvent: {}
+[5.940919] (-) TimerEvent: {}
+[6.041689] (-) TimerEvent: {}
+[6.142531] (-) TimerEvent: {}
+[6.243379] (-) TimerEvent: {}
+[6.344221] (-) TimerEvent: {}
+[6.445070] (-) TimerEvent: {}
+[6.545847] (-) TimerEvent: {}
+[6.646629] (-) TimerEvent: {}
+[6.672894] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:5:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::placeholders\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[6.673834] (jointctrlsdk) StderrLine: {'line': b'    5 | using std::\x1b[01;31m\x1b[Kplaceholders\x1b[m\x1b[K::_1;\n'}
+[6.674620] (jointctrlsdk) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.746832] (-) TimerEvent: {}
+[6.847646] (-) TimerEvent: {}
+[6.948442] (-) TimerEvent: {}
+[7.049243] (-) TimerEvent: {}
+[7.150048] (-) TimerEvent: {}
+[7.250910] (-) TimerEvent: {}
+[7.351796] (-) TimerEvent: {}
+[7.452683] (-) TimerEvent: {}
+[7.553558] (-) TimerEvent: {}
+[7.654543] (-) TimerEvent: {}
+[7.755583] (-) TimerEvent: {}
+[7.856458] (-) TimerEvent: {}
+[7.957366] (-) TimerEvent: {}
+[8.058180] (-) TimerEvent: {}
+[8.158979] (-) TimerEvent: {}
+[8.259809] (-) TimerEvent: {}
+[8.360638] (-) TimerEvent: {}
+[8.461531] (-) TimerEvent: {}
+[8.562337] (-) TimerEvent: {}
+[8.663146] (-) TimerEvent: {}
+[8.763985] (-) TimerEvent: {}
+[8.864818] (-) TimerEvent: {}
+[8.965693] (-) TimerEvent: {}
+[9.066774] (-) TimerEvent: {}
+[9.167647] (-) TimerEvent: {}
+[9.268467] (-) TimerEvent: {}
+[9.369349] (-) TimerEvent: {}
+[9.470155] (-) TimerEvent: {}
+[9.571012] (-) TimerEvent: {}
+[9.671884] (-) TimerEvent: {}
+[9.772744] (-) TimerEvent: {}
+[9.873707] (-) TimerEvent: {}
+[9.974647] (-) TimerEvent: {}
+[10.075451] (-) TimerEvent: {}
+[10.176287] (-) TimerEvent: {}
+[10.277108] (-) TimerEvent: {}
+[10.377948] (-) TimerEvent: {}
+[10.478715] (-) TimerEvent: {}
+[10.579519] (-) TimerEvent: {}
+[10.680317] (-) TimerEvent: {}
+[10.762084] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTorqueSubscriber::TorqueSubscriber()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.763646] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:18:105:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Subscription<torque_interfaces::msg::Torque_<std::allocator<void> > >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<torque_interfaces::msg::Torque_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<std_msgs::msg::Float32MultiArray_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32MultiArray_<std::allocator<void> >, std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[10.764677] (jointctrlsdk) StderrLine: {'line': b'   18 | rqueSubscriber::torque_callback, this, std::placeholders::_1)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[10.765306] (jointctrlsdk) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.765755] (jointctrlsdk) StderrLine: {'line': b'\n'}
+[10.766152] (jointctrlsdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[10.766532] (jointctrlsdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:2\x1b[m\x1b[K:\n'}
+[10.766941] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:309:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = rclcpp::Subscription<torque_interfaces::msg::Torque_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.767390] (jointctrlsdk) StderrLine: {'line': b'  309 |       shared_ptr& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr&) noexcept = default;\n'}
+[10.767802] (jointctrlsdk) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.768219] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:309:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<std_msgs::msg::Float32MultiArray_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32MultiArray_<std::allocator<void> >, std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<rclcpp::Subscription<torque_interfaces::msg::Torque_<std::allocator<void> > > >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.768730] (jointctrlsdk) StderrLine: {'line': b'  309 |       shared_ptr& operator=(\x1b[01;36m\x1b[Kconst shared_ptr&\x1b[m\x1b[K) noexcept = default;\n'}
+[10.769282] (jointctrlsdk) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.769654] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:313:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<torque_interfaces::msg::Torque_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.770080] (jointctrlsdk) StderrLine: {'line': b'  313 |  \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr<_Yp>& __r) noexcept\n'}
+[10.770459] (jointctrlsdk) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.770846] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:313:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.771243] (jointctrlsdk) StderrLine: {'line': b'/usr/include/c++/9/bits/shared_ptr.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = const std::shared_ptr<rclcpp::Subscription<std_msgs::msg::Float32MultiArray_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32MultiArray_<std::allocator<void> >, std::allocator<void> > > >&; _Tp = rclcpp::Subscription<torque_interfaces::msg::Torque_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.771688] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:313:2:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Subscription<torque_interfaces::msg::Torque_<std::allocator<void> > > >::_Assignable<const std::shared_ptr<_Tp>&> std::shared_ptr<rclcpp::Subscription<torque_interfaces::msg::Torque_<std::allocator<void> > > >::operator=<_Yp>(const std::shared_ptr<_Tp>&) [with _Yp = rclcpp::Subscription<std_msgs::msg::Float32MultiArray_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32MultiArray_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.772255] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:18:105:\x1b[m\x1b[K   required from here\n'}
+[10.772666] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:111:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Subscription<torque_interfaces::msg::Torque_<std::allocator<void> > > >&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.773230] (jointctrlsdk) StderrLine: {'line': b'  111 |  using \x1b[01;31m\x1b[K_Assignable\x1b[m\x1b[K = typename enable_if<\n'}
+[10.773648] (jointctrlsdk) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.774023] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:324:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<torque_interfaces::msg::Torque_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.774498] (jointctrlsdk) StderrLine: {'line': b'  324 |  \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(auto_ptr<_Yp>&& __r)\n'}
+[10.774913] (jointctrlsdk) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.775320] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:324:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.775807] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:18:105:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<std_msgs::msg::Float32MultiArray_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32MultiArray_<std::allocator<void> >, std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::auto_ptr<_Up>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.776697] (jointctrlsdk) StderrLine: {'line': b'   18 | rqueSubscriber::torque_callback, this, std::placeholders::_1)\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[10.778062] (jointctrlsdk) StderrLine: {'line': b'      |                                                              \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[10.778539] (jointctrlsdk) StderrLine: {'line': b'\n'}
+[10.778918] (jointctrlsdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[10.779299] (jointctrlsdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:2\x1b[m\x1b[K:\n'}
+[10.779677] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:333:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = rclcpp::Subscription<torque_interfaces::msg::Torque_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.780105] (jointctrlsdk) StderrLine: {'line': b'  333 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr&& __r) noexcept\n'}
+[10.780460] (-) TimerEvent: {}
+[10.780975] (jointctrlsdk) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.781567] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:333:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<std_msgs::msg::Float32MultiArray_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32MultiArray_<std::allocator<void> >, std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<torque_interfaces::msg::Torque_<std::allocator<void> > > >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.782096] (jointctrlsdk) StderrLine: {'line': b'  333 |       operator=(\x1b[01;36m\x1b[Kshared_ptr&& __r\x1b[m\x1b[K) noexcept\n'}
+[10.782525] (jointctrlsdk) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[10.782911] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:341:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<torque_interfaces::msg::Torque_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.783298] (jointctrlsdk) StderrLine: {'line': b'  341 |  \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr<_Yp>&& __r) noexcept\n'}
+[10.783678] (jointctrlsdk) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.784054] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:341:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.784450] (jointctrlsdk) StderrLine: {'line': b'/usr/include/c++/9/bits/shared_ptr.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = std::shared_ptr<rclcpp::Subscription<std_msgs::msg::Float32MultiArray_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32MultiArray_<std::allocator<void> >, std::allocator<void> > > >; _Tp = rclcpp::Subscription<torque_interfaces::msg::Torque_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.785091] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:341:2:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Subscription<torque_interfaces::msg::Torque_<std::allocator<void> > > >::_Assignable<std::shared_ptr<_Tp> > std::shared_ptr<rclcpp::Subscription<torque_interfaces::msg::Torque_<std::allocator<void> > > >::operator=<_Yp>(std::shared_ptr<_Tp>&&) [with _Yp = rclcpp::Subscription<std_msgs::msg::Float32MultiArray_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32MultiArray_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.785672] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:18:105:\x1b[m\x1b[K   required from here\n'}
+[10.786138] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:111:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Subscription<torque_interfaces::msg::Torque_<std::allocator<void> > > >&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.786605] (jointctrlsdk) StderrLine: {'line': b'  111 |  using \x1b[01;31m\x1b[K_Assignable\x1b[m\x1b[K = typename enable_if<\n'}
+[10.786988] (jointctrlsdk) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.787363] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:349:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = rclcpp::Subscription<torque_interfaces::msg::Torque_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.787782] (jointctrlsdk) StderrLine: {'line': b'  349 |  \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(unique_ptr<_Yp, _Del>&& __r)\n'}
+[10.788176] (jointctrlsdk) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.788575] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:349:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.789046] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:18:105:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<std_msgs::msg::Float32MultiArray_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32MultiArray_<std::allocator<void> >, std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.789557] (jointctrlsdk) StderrLine: {'line': b'   18 | rqueSubscriber::torque_callback, this, std::placeholders::_1)\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[10.790015] (jointctrlsdk) StderrLine: {'line': b'      |                                                              \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[10.790488] (jointctrlsdk) StderrLine: {'line': b'\n'}
+[10.790913] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid TorqueSubscriber::torque_callback(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.791517] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:32:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct std_msgs::msg::Float32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct std_msgs::msg::Float32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kt_hr\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.792066] (jointctrlsdk) StderrLine: {'line': b'   32 |         torque_values_ = {msg->\x1b[01;31m\x1b[Kt_hr\x1b[m\x1b[K, msg->t_kr, msg->t_wr, msg->t_hl, msg->t_kl, msg->t_wl};\n'}
+[10.792508] (jointctrlsdk) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[10.792996] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:32:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct std_msgs::msg::Float32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct std_msgs::msg::Float32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kt_kr\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.793495] (jointctrlsdk) StderrLine: {'line': b'   32 |         torque_values_ = {msg->t_hr, msg->\x1b[01;31m\x1b[Kt_kr\x1b[m\x1b[K, msg->t_wr, msg->t_hl, msg->t_kl, msg->t_wl};\n'}
+[10.793932] (jointctrlsdk) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[10.794346] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:32:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct std_msgs::msg::Float32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct std_msgs::msg::Float32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kt_wr\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.794841] (jointctrlsdk) StderrLine: {'line': b'   32 |         torque_values_ = {msg->t_hr, msg->t_kr, msg->\x1b[01;31m\x1b[Kt_wr\x1b[m\x1b[K, msg->t_hl, msg->t_kl, msg->t_wl};\n'}
+[10.795243] (jointctrlsdk) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[10.795635] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:32:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct std_msgs::msg::Float32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct std_msgs::msg::Float32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kt_hl\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.796150] (jointctrlsdk) StderrLine: {'line': b'   32 |      torque_values_ = {msg->t_hr, msg->t_kr, msg->t_wr, msg->\x1b[01;31m\x1b[Kt_hl\x1b[m\x1b[K, msg->t_kl, msg->t_wl};\n'}
+[10.796614] (jointctrlsdk) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[10.797176] (jointctrlsdk) StderrLine: {'line': b'\n'}
+[10.797632] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:32:76:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct std_msgs::msg::Float32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct std_msgs::msg::Float32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kt_kl\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.798142] (jointctrlsdk) StderrLine: {'line': b'   32 | e_values_ = {msg->t_hr, msg->t_kr, msg->t_wr, msg->t_hl, msg->\x1b[01;31m\x1b[Kt_kl\x1b[m\x1b[K, msg->t_wl};\n'}
+[10.798577] (jointctrlsdk) StderrLine: {'line': b'      |                                                               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[10.799001] (jointctrlsdk) StderrLine: {'line': b'\n'}
+[10.799392] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:32:87:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct std_msgs::msg::Float32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct std_msgs::msg::Float32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kt_wl\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.799812] (jointctrlsdk) StderrLine: {'line': b'   32 | {msg->t_hr, msg->t_kr, msg->t_wr, msg->t_hl, msg->t_kl, msg->\x1b[01;31m\x1b[Kt_wl\x1b[m\x1b[K};\n'}
+[10.800216] (jointctrlsdk) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[10.800599] (jointctrlsdk) StderrLine: {'line': b'\n'}
+[10.801083] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:32:91:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kstd::array<float, 6>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[10.801635] (jointctrlsdk) StderrLine: {'line': b'   32 | ->t_hr, msg->t_kr, msg->t_wr, msg->t_hl, msg->t_kl, msg->t_wl\x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[10.802088] (jointctrlsdk) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.802526] (jointctrlsdk) StderrLine: {'line': b'\n'}
+[10.802948] (jointctrlsdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[10.803375] (jointctrlsdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[10.803799] (jointctrlsdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[10.804404] (jointctrlsdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:2\x1b[m\x1b[K:\n'}
+[10.804957] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/array:94:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr std::array<float, 6>& std::array<float, 6>::operator=(const std::array<float, 6>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.805427] (jointctrlsdk) StderrLine: {'line': b'   94 |     struct \x1b[01;36m\x1b[Karray\x1b[m\x1b[K\n'}
+[10.805829] (jointctrlsdk) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.806247] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/array:94:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<float, 6>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.806658] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/array:94:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr std::array<float, 6>& std::array<float, 6>::operator=(std::array<float, 6>&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.807162] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/array:94:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::array<float, 6>&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.880725] (-) TimerEvent: {}
+[10.981563] (-) TimerEvent: {}
+[11.082330] (-) TimerEvent: {}
+[11.183106] (-) TimerEvent: {}
+[11.283914] (-) TimerEvent: {}
+[11.384752] (-) TimerEvent: {}
+[11.485588] (-) TimerEvent: {}
+[11.586382] (-) TimerEvent: {}
+[11.687203] (-) TimerEvent: {}
+[11.788043] (-) TimerEvent: {}
+[11.888982] (-) TimerEvent: {}
+[11.989908] (-) TimerEvent: {}
+[12.090943] (-) TimerEvent: {}
+[12.191788] (-) TimerEvent: {}
+[12.292591] (-) TimerEvent: {}
+[12.393470] (-) TimerEvent: {}
+[12.494320] (-) TimerEvent: {}
+[12.595129] (-) TimerEvent: {}
+[12.695954] (-) TimerEvent: {}
+[12.796903] (-) TimerEvent: {}
+[12.897698] (-) TimerEvent: {}
+[12.998538] (-) TimerEvent: {}
+[13.099369] (-) TimerEvent: {}
+[13.200178] (-) TimerEvent: {}
+[13.301037] (-) TimerEvent: {}
+[13.401813] (-) TimerEvent: {}
+[13.502640] (-) TimerEvent: {}
+[13.603496] (-) TimerEvent: {}
+[13.704366] (-) TimerEvent: {}
+[13.805228] (-) TimerEvent: {}
+[13.906126] (-) TimerEvent: {}
+[14.006946] (-) TimerEvent: {}
+[14.108004] (-) TimerEvent: {}
+[14.209436] (-) TimerEvent: {}
+[14.310370] (-) TimerEvent: {}
+[14.411189] (-) TimerEvent: {}
+[14.512066] (-) TimerEvent: {}
+[14.613007] (-) TimerEvent: {}
+[14.713878] (-) TimerEvent: {}
+[14.814688] (-) TimerEvent: {}
+[14.915544] (-) TimerEvent: {}
+[15.016402] (-) TimerEvent: {}
+[15.117335] (-) TimerEvent: {}
+[15.218132] (-) TimerEvent: {}
+[15.318993] (-) TimerEvent: {}
+[15.419851] (-) TimerEvent: {}
+[15.520726] (-) TimerEvent: {}
+[15.621610] (-) TimerEvent: {}
+[15.722436] (-) TimerEvent: {}
+[15.823280] (-) TimerEvent: {}
+[15.924125] (-) TimerEvent: {}
+[16.025012] (-) TimerEvent: {}
+[16.125780] (-) TimerEvent: {}
+[16.226654] (-) TimerEvent: {}
+[16.284452] (jointctrlsdk) StderrLine: {'line': b'make[2]: *** [CMakeFiles/diablo_torquesubscriber.dir/build.make:63: CMakeFiles/diablo_torquesubscriber.dir/src/diablo_torque.cpp.o] Error 1\n'}
+[16.286606] (jointctrlsdk) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/diablo_torquesubscriber.dir/all] Error 2\n'}
+[16.288033] (jointctrlsdk) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[16.294257] (jointctrlsdk) CommandEnded: {'returncode': 2}
+[16.327000] (-) TimerEvent: {}
+[16.428253] (-) TimerEvent: {}
+[16.529096] (-) TimerEvent: {}
+[16.567610] (jointctrlsdk) JobEnded: {'identifier': 'jointctrlsdk', 'rc': 2}
+[16.572049] (-) EventReactorShutdown: {}

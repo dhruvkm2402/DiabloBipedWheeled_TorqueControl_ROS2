@@ -1,0 +1,20 @@
+[0.071s] Invoking command in '/home/diablo/diablo_torqueHDRL/build/torque_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/diablo/diablo_torqueHDRL/build/torque_interfaces -- -j4 -l4
+[0.248s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.358s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.359s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.257s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.270s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.284s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.606s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.815s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.085s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:162 (message):
+[3.086s]   rosidl_generate_interfaces() the passed dependency 'std_msgs' has not been
+[3.086s]   found before using find_package()
+[3.086s] Call Stack (most recent call first):
+[3.087s]   CMakeLists.txt:22 (rosidl_generate_interfaces)
+[3.087s] 
+[3.087s] 
+[3.096s] -- Configuring incomplete, errors occurred!
+[3.096s] See also "/home/diablo/diablo_torqueHDRL/build/torque_interfaces/CMakeFiles/CMakeOutput.log".
+[3.118s] make: *** [Makefile:748: cmake_check_build_system] Error 1
+[3.124s] Invoked command in '/home/diablo/diablo_torqueHDRL/build/torque_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/diablo/diablo_torqueHDRL/build/torque_interfaces -- -j4 -l4

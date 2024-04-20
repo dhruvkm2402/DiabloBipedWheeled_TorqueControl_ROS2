@@ -1,0 +1,171 @@
+[0.000000] (-) TimerEvent: {}
+[0.000984] (jointctrlsdk) JobQueued: {'identifier': 'jointctrlsdk', 'dependencies': OrderedDict()}
+[0.002022] (jointctrlsdk) JobStarted: {'identifier': 'jointctrlsdk'}
+[0.083383] (jointctrlsdk) JobProgress: {'identifier': 'jointctrlsdk', 'progress': 'cmake'}
+[0.088838] (jointctrlsdk) JobProgress: {'identifier': 'jointctrlsdk', 'progress': 'build'}
+[0.092020] (jointctrlsdk) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk', '--', '-j4', '-l4'], 'cwd': '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en_US'), ('USER', 'diablo'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1119'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/diablo/diablo_ws/install/diablo_body/lib:/home/diablo/diablo_ws/install/diablo_utils/lib:/home/diablo/diablo_ws/install/motion_msgs/lib:/home/diablo/diablo_ws/install/ception_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/diablo'), ('OLDPWD', '/home/diablo'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('COLCON_PREFIX_PATH', '/home/diablo/diablo_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'diablo'), ('WINDOWID', '35651591'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/diablo-desktop:@/tmp/.ICE-unix/988,unix/diablo-desktop:/tmp/.ICE-unix/988'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/diablo/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '5'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/diablo'), ('AMENT_PREFIX_PATH', '/home/diablo/diablo_ws/install/diablo_ctrl:/home/diablo/diablo_ws/install/diablo_body:/home/diablo/diablo_ws/install/diablo_utils:/home/diablo/diablo_ws/install/diablo_teleop:/home/diablo/diablo_ws/install/motion_msgs:/home/diablo/diablo_ws/install/ception_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('XDG_VTNR', '7'), ('PWD', '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/mate:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/diablo/diablo_ws/install/diablo_teleop/lib/python3.8/site-packages:/home/diablo/diablo_ws/install/motion_msgs/lib/python3.8/site-packages:/home/diablo/diablo_ws/install/ception_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/diablo/diablo_ws/install/diablo_ctrl:/home/diablo/diablo_ws/install/diablo_body:/home/diablo/diablo_ws/install/diablo_utils:/home/diablo/diablo_ws/install/motion_msgs:/home/diablo/diablo_ws/install/ception_msgs:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy')]), 'shell': False}
+[0.098857] (-) TimerEvent: {}
+[0.200199] (-) TimerEvent: {}
+[0.301448] (-) TimerEvent: {}
+[0.402484] (-) TimerEvent: {}
+[0.503358] (-) TimerEvent: {}
+[0.604349] (-) TimerEvent: {}
+[0.705529] (-) TimerEvent: {}
+[0.806667] (-) TimerEvent: {}
+[0.907688] (-) TimerEvent: {}
+[1.008830] (-) TimerEvent: {}
+[1.109852] (-) TimerEvent: {}
+[1.139426] (jointctrlsdk) StdoutLine: {'line': b'[ 66%] Built target jointctrlsdk_core\n'}
+[1.210364] (-) TimerEvent: {}
+[1.300543] (jointctrlsdk) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target diablo_torquesubscriber\x1b[0m\n'}
+[1.310559] (-) TimerEvent: {}
+[1.411470] (-) TimerEvent: {}
+[1.485888] (jointctrlsdk) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/diablo_torquesubscriber.dir/src/diablo_torque.cpp.o\x1b[0m\n'}
+[1.511674] (-) TimerEvent: {}
+[1.612778] (-) TimerEvent: {}
+[1.713698] (-) TimerEvent: {}
+[1.814926] (-) TimerEvent: {}
+[1.916128] (-) TimerEvent: {}
+[2.017239] (-) TimerEvent: {}
+[2.118561] (-) TimerEvent: {}
+[2.219610] (-) TimerEvent: {}
+[2.320545] (-) TimerEvent: {}
+[2.421416] (-) TimerEvent: {}
+[2.522310] (-) TimerEvent: {}
+[2.623333] (-) TimerEvent: {}
+[2.724422] (-) TimerEvent: {}
+[2.825569] (-) TimerEvent: {}
+[2.926607] (-) TimerEvent: {}
+[3.028017] (-) TimerEvent: {}
+[3.128859] (-) TimerEvent: {}
+[3.229830] (-) TimerEvent: {}
+[3.331297] (-) TimerEvent: {}
+[3.432173] (-) TimerEvent: {}
+[3.533066] (-) TimerEvent: {}
+[3.634028] (-) TimerEvent: {}
+[3.734888] (-) TimerEvent: {}
+[3.835753] (-) TimerEvent: {}
+[3.936620] (-) TimerEvent: {}
+[4.037487] (-) TimerEvent: {}
+[4.138547] (-) TimerEvent: {}
+[4.239413] (-) TimerEvent: {}
+[4.340243] (-) TimerEvent: {}
+[4.441051] (-) TimerEvent: {}
+[4.541910] (-) TimerEvent: {}
+[4.642856] (-) TimerEvent: {}
+[4.743984] (-) TimerEvent: {}
+[4.844892] (-) TimerEvent: {}
+[4.945788] (-) TimerEvent: {}
+[5.046678] (-) TimerEvent: {}
+[5.147513] (-) TimerEvent: {}
+[5.248419] (-) TimerEvent: {}
+[5.349609] (-) TimerEvent: {}
+[5.450660] (-) TimerEvent: {}
+[5.551500] (-) TimerEvent: {}
+[5.652360] (-) TimerEvent: {}
+[5.753255] (-) TimerEvent: {}
+[5.854172] (-) TimerEvent: {}
+[5.954989] (-) TimerEvent: {}
+[6.055810] (-) TimerEvent: {}
+[6.156660] (-) TimerEvent: {}
+[6.257576] (-) TimerEvent: {}
+[6.358477] (-) TimerEvent: {}
+[6.459411] (-) TimerEvent: {}
+[6.560261] (-) TimerEvent: {}
+[6.661111] (-) TimerEvent: {}
+[6.762013] (-) TimerEvent: {}
+[6.862938] (-) TimerEvent: {}
+[6.963775] (-) TimerEvent: {}
+[7.064766] (-) TimerEvent: {}
+[7.165615] (-) TimerEvent: {}
+[7.266561] (-) TimerEvent: {}
+[7.367371] (-) TimerEvent: {}
+[7.468180] (-) TimerEvent: {}
+[7.569086] (-) TimerEvent: {}
+[7.670135] (-) TimerEvent: {}
+[7.770981] (-) TimerEvent: {}
+[7.871810] (-) TimerEvent: {}
+[7.972700] (-) TimerEvent: {}
+[8.073584] (-) TimerEvent: {}
+[8.174537] (-) TimerEvent: {}
+[8.275369] (-) TimerEvent: {}
+[8.376253] (-) TimerEvent: {}
+[8.477107] (-) TimerEvent: {}
+[8.555972] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:8:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kclass TorqueSubscriber\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.556917] (jointctrlsdk) StderrLine: {'line': b'    8 | class \x1b[01;31m\x1b[KTorqueSubscriber\x1b[m\x1b[K : public rclcpp::Node\n'}
+[8.557402] (jointctrlsdk) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.557821] (jointctrlsdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:2\x1b[m\x1b[K:\n'}
+[8.558327] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/include/diablo_tctrl.hpp:9:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious definition of \xe2\x80\x98\x1b[01m\x1b[Kclass TorqueSubscriber\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.558764] (jointctrlsdk) StderrLine: {'line': b'    9 | class \x1b[01;36m\x1b[KTorqueSubscriber\x1b[m\x1b[K : public rclcpp::Node\n'}
+[8.559189] (jointctrlsdk) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.576090] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.576853] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:44:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSerialHandle\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.577314] (-) TimerEvent: {}
+[8.577792] (jointctrlsdk) StderrLine: {'line': b'   44 |     \x1b[01;31m\x1b[KSerialHandle\x1b[m\x1b[K handle;\n'}
+[8.578367] (jointctrlsdk) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.583829] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:45:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmotor_torque_t\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.584665] (jointctrlsdk) StderrLine: {'line': b'   45 |     \x1b[01;31m\x1b[Kmotor_torque_t\x1b[m\x1b[K send_struct;\n'}
+[8.585257] (jointctrlsdk) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.588499] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:46:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khandle\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.589226] (jointctrlsdk) StderrLine: {'line': b'   46 |     \x1b[01;31m\x1b[Khandle\x1b[m\x1b[K.serial_init("/dev/ttyAMA0");\n'}
+[8.589935] (jointctrlsdk) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[8.590462] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:54:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid initialization of reference of type \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<float, 6>&\x1b[m\x1b[K\xe2\x80\x99 from expression of type \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.590915] (jointctrlsdk) StderrLine: {'line': b'   54 |         const std::array<float, 6>& torque_values2 = \x1b[01;31m\x1b[Knode->getTorqueValues\x1b[m\x1b[K;\n'}
+[8.591439] (jointctrlsdk) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.592581] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:59:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K=\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[8.593222] (jointctrlsdk) StderrLine: {'line': b'   59 |         for(size_t\x1b[01;31m\x1b[K=\x1b[m\x1b[Ki; i<torque_values2.size();i++){\n'}
+[8.594317] (jointctrlsdk) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.595040] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:59:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K=\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[8.595668] (jointctrlsdk) StderrLine: {'line': b'   59 |         for(size_t\x1b[01;31m\x1b[K=\x1b[m\x1b[Ki; i<torque_values2.size();i++){\n'}
+[8.596808] (jointctrlsdk) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.597443] (jointctrlsdk) StderrLine: {'line': b'      |                   \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[8.598055] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:59:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K=\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[8.599144] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:59:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ki\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.599786] (jointctrlsdk) StderrLine: {'line': b'   59 |         for(size_t=\x1b[01;31m\x1b[Ki\x1b[m\x1b[K; i<torque_values2.size();i++){\n'}
+[8.600380] (jointctrlsdk) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.601038] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:59:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[8.601540] (jointctrlsdk) StderrLine: {'line': b'   59 |         for\x1b[34m\x1b[K(\x1b[m\x1b[Ksize_t=i; i<torque_values2.size()\x1b[01;31m\x1b[K;\x1b[m\x1b[Ki++){\n'}
+[8.601979] (jointctrlsdk) StderrLine: {'line': b'      |            \x1b[34m\x1b[K~\x1b[m\x1b[K                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.602749] (jointctrlsdk) StderrLine: {'line': b'      |                                              \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[8.603285] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:59:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis \xe2\x80\x98\x1b[01m\x1b[Kfor\x1b[m\x1b[K\xe2\x80\x99 clause does not guard... [\x1b[01;35m\x1b[K-Wmisleading-indentation\x1b[m\x1b[K]\n'}
+[8.603910] (jointctrlsdk) StderrLine: {'line': b'   59 |         \x1b[01;35m\x1b[Kfor\x1b[m\x1b[K(size_t=i; i<torque_values2.size();i++){\n'}
+[8.604548] (jointctrlsdk) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[8.605189] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:59:47:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K...this statement, but the latter is misleadingly indented as if it were guarded by the \xe2\x80\x98\x1b[01m\x1b[Kfor\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.606691] (jointctrlsdk) StderrLine: {'line': b'   59 |         for(size_t=i; i<torque_values2.size();\x1b[01;36m\x1b[Ki\x1b[m\x1b[K++){\n'}
+[8.607284] (jointctrlsdk) StderrLine: {'line': b'      |                                               \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[8.607822] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:59:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ki\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.609543] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:63:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksend_struct\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.610444] (jointctrlsdk) StderrLine: {'line': b'   63 |         handle.create_package(torque_values2, \x1b[01;31m\x1b[Ksend_struct\x1b[m\x1b[K);\n'}
+[8.611005] (jointctrlsdk) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.614680] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:74:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusleep\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.615466] (jointctrlsdk) StderrLine: {'line': b'   74 |                 \x1b[01;31m\x1b[Kusleep\x1b[m\x1b[K(10000);\n'}
+[8.615999] (jointctrlsdk) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[8.619564] (jointctrlsdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:82:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusleep\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.620224] (jointctrlsdk) StderrLine: {'line': b'   82 |         \x1b[01;31m\x1b[Kusleep\x1b[m\x1b[K(1500);\n'}
+[8.620669] (jointctrlsdk) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[8.677563] (-) TimerEvent: {}
+[8.778383] (-) TimerEvent: {}
+[8.879198] (-) TimerEvent: {}
+[8.979996] (-) TimerEvent: {}
+[9.080867] (-) TimerEvent: {}
+[9.181728] (-) TimerEvent: {}
+[9.282619] (-) TimerEvent: {}
+[9.383638] (-) TimerEvent: {}
+[9.484740] (-) TimerEvent: {}
+[9.585636] (-) TimerEvent: {}
+[9.686537] (-) TimerEvent: {}
+[9.787622] (-) TimerEvent: {}
+[9.888543] (-) TimerEvent: {}
+[9.989345] (-) TimerEvent: {}
+[10.090343] (-) TimerEvent: {}
+[10.191466] (-) TimerEvent: {}
+[10.292260] (-) TimerEvent: {}
+[10.308841] (jointctrlsdk) StderrLine: {'line': b'make[2]: *** [CMakeFiles/diablo_torquesubscriber.dir/build.make:63: CMakeFiles/diablo_torquesubscriber.dir/src/diablo_torque.cpp.o] Error 1\n'}
+[10.309737] (jointctrlsdk) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/diablo_torquesubscriber.dir/all] Error 2\n'}
+[10.310547] (jointctrlsdk) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[10.317069] (jointctrlsdk) CommandEnded: {'returncode': 2}
+[10.392498] (-) TimerEvent: {}
+[10.493519] (-) TimerEvent: {}
+[10.594214] (-) TimerEvent: {}
+[10.625096] (jointctrlsdk) JobEnded: {'identifier': 'jointctrlsdk', 'rc': 2}
+[10.629324] (-) EventReactorShutdown: {}

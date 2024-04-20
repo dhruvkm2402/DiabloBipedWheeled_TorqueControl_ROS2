@@ -1,0 +1,26 @@
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:42:11:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kelse[m[K’
+   42 |         } [01;31m[Kelse[m[K {
+      |           [01;31m[K^~~~[m[K
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:[m[K In constructor ‘[01m[KTorqueSubscriber::TorqueSubscriber()[m[K’:
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:16:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+   16 |         [01;31m[Ksubscription_[m[K = this->create_subscription<std_msgs::msg::Float32MultiArray>(
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+      |         [32m[Krcl_subscription_t[m[K
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:[m[K In member function ‘[01m[Kconst std::array<float, 6>& TorqueSubscriber::getTorqueValues() const[m[K’:
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:22:16:[m[K [01;31m[Kerror: [m[K‘[01m[Ktorque_values_[m[K’ was not declared in this scope
+   22 |         return [01;31m[Ktorque_values_[m[K;
+      |                [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:[m[K In member function ‘[01m[Kvoid TorqueSubscriber::torque_callback(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:36:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ktorque_values_[m[K’ was not declared in this scope
+   36 |                 [01;31m[Ktorque_values_[m[K[i] = msg->data[i];
+      |                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:[m[K At global scope:
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:48:26:[m[K [01;31m[Kerror: [m[Kinvalid declarator before ‘[01m[Ktorque_values_[m[K’
+   48 |     std::array<float, 6> [01;31m[Ktorque_values_[m[K;
+      |                          [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:50:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   50 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/diablo_torquesubscriber.dir/build.make:63: CMakeFiles/diablo_torquesubscriber.dir/src/diablo_torque.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/diablo_torquesubscriber.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

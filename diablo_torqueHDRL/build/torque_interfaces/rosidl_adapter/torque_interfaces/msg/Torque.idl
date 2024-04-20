@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from torque_interfaces/msg/Torque.msg
+// generated code does not contain a copyright notice
+
+
+module torque_interfaces {
+  module msg {
+    struct Torque {
+      float t_hr;
+
+      float t_kr;
+
+      float t_wr;
+
+      float t_hl;
+
+      float t_kl;
+
+      float t_wl;
+    };
+  };
+};

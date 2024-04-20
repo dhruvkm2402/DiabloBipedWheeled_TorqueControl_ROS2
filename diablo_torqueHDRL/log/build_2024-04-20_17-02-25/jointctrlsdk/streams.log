@@ -1,0 +1,18 @@
+[0.124s] Invoking command in '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk': AMENT_PREFIX_PATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces:/home/diablo/diablo_ws/install/diablo_ctrl:/home/diablo/diablo_ws/install/diablo_body:/home/diablo/diablo_ws/install/diablo_utils:/home/diablo/diablo_ws/install/motion_msgs:/home/diablo/diablo_ws/install/ception_msgs:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy LD_LIBRARY_PATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/diablo/diablo_torqueHDRL/build/jointctrlsdk -- -j4 -l4
+[0.735s] [ 50%] Built target jointctrlsdk_core
+[0.803s] [ 75%] Built target torque_msg_subscribe
+[0.806s] [35m[1mScanning dependencies of target diablo_torquesubscriber[0m
+[0.985s] [ 87%] [32mBuilding CXX object CMakeFiles/diablo_torquesubscriber.dir/src/diablo_torque.cpp.o[0m
+[8.082s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[8.083s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:75:15:[m[K [01;31m[Kerror: [m[K‘[01m[Ktorque_values[m[K’ does not name a type; did you mean ‘[01m[Ktorque_values2[m[K’?
+[8.084s]    75 |         const [01;31m[Ktorque_values[m[K = node->getTorqueValues();
+[8.084s]       |               [01;31m[K^~~~~~~~~~~~~[m[K
+[8.085s]       |               [32m[Ktorque_values2[m[K
+[8.087s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:78:33:[m[K [01;31m[Kerror: [m[K‘[01m[Ktorque_values[m[K’ was not declared in this scope; did you mean ‘[01m[Ktorque_values2[m[K’?
+[8.087s]    78 |             torque_values2[i] = [01;31m[Ktorque_values[m[K[i];
+[8.088s]       |                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[8.088s]       |                                 [32m[Ktorque_values2[m[K
+[13.906s] make[2]: *** [CMakeFiles/diablo_torquesubscriber.dir/build.make:63: CMakeFiles/diablo_torquesubscriber.dir/src/diablo_torque.cpp.o] Error 1
+[13.907s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/diablo_torquesubscriber.dir/all] Error 2
+[13.908s] make: *** [Makefile:141: all] Error 2
+[13.915s] Invoked command in '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk' returned '2': AMENT_PREFIX_PATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces:/home/diablo/diablo_ws/install/diablo_ctrl:/home/diablo/diablo_ws/install/diablo_body:/home/diablo/diablo_ws/install/diablo_utils:/home/diablo/diablo_ws/install/motion_msgs:/home/diablo/diablo_ws/install/ception_msgs:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy LD_LIBRARY_PATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/diablo/diablo_torqueHDRL/build/jointctrlsdk -- -j4 -l4

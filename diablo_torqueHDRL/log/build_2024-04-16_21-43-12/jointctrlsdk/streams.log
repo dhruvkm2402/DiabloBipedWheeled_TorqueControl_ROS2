@@ -1,0 +1,14 @@
+[0.091s] Invoking command in '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/diablo/diablo_torqueHDRL/build/jointctrlsdk -- -j4 -l4
+[0.707s] [ 66%] Built target jointctrlsdk_core
+[0.774s] [35m[1mScanning dependencies of target diablo_torquesubscriber[0m
+[1.255s] [ 83%] [32mBuilding CXX object CMakeFiles/diablo_torquesubscriber.dir/src/diablo_torque.cpp.o[0m
+[8.100s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:[m[K In member function ‘[01m[Kconst float* TorqueSubscriber::getTorqueValues() const[m[K’:
+[8.101s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:13:12:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst std::array<float, 6>[m[K’ to ‘[01m[Kconst float*[m[K’ in return
+[8.101s]    13 |     return [01;31m[Ktorque_values_[m[K;
+[8.102s]       |            [01;31m[K^~~~~~~~~~~~~~[m[K
+[8.103s]       |            [01;31m[K|[m[K
+[8.103s]       |            [01;31m[Kconst std::array<float, 6>[m[K
+[14.017s] make[2]: *** [CMakeFiles/diablo_torquesubscriber.dir/build.make:63: CMakeFiles/diablo_torquesubscriber.dir/src/diablo_torque.cpp.o] Error 1
+[14.018s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/diablo_torquesubscriber.dir/all] Error 2
+[14.018s] make: *** [Makefile:141: all] Error 2
+[14.025s] Invoked command in '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/diablo/diablo_torqueHDRL/build/jointctrlsdk -- -j4 -l4

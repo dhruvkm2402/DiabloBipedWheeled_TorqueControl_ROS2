@@ -1,0 +1,87 @@
+[0.089s] Invoking command in '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk': CMAKE_PREFIX_PATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces:/home/diablo/diablo_torqueHDRL/install/jointctrlsdk:/home/diablo/diablo_ws/install/diablo_ctrl:/home/diablo/diablo_ws/install/diablo_body:/home/diablo/diablo_ws/install/diablo_utils:/home/diablo/diablo_ws/install/motion_msgs:/home/diablo/diablo_ws/install/ception_msgs:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy LD_LIBRARY_PATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib:/home/diablo/diablo_torqueHDRL/install/jointctrlsdk/lib:/home/diablo/diablo_ws/install/diablo_body/lib:/home/diablo/diablo_ws/install/diablo_utils/lib:/home/diablo/diablo_ws/install/motion_msgs/lib:/home/diablo/diablo_ws/install/ception_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /home/diablo/diablo_torqueHDRL/build/jointctrlsdk -- -j4 -l4
+[0.247s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.358s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.467s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.481s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.668s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.873s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.880s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.465s] -- Found torque_interfaces: 0.0.0 (/home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake)
+[3.500s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.799s] -- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[3.829s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.840s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.841s] -- Configured cppcheck include dirs: /home/diablo/diablo_torqueHDRL/src/jointctrlsdk/include
+[3.842s] -- Configured cppcheck exclude dirs and/or files: 
+[3.851s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.852s] -- Configured cpplint exclude dirs and/or files: 
+[3.857s] -- Added test 'lint_cmake' to check CMake code style
+[3.869s] -- Added test 'uncrustify' to check C / C++ code style
+[3.869s] -- Configured uncrustify additional arguments: 
+[3.871s] -- Added test 'xmllint' to check XML markup files
+[3.900s] -- Configuring done
+[3.957s] -- Generating done
+[3.966s] -- Build files have been written to: /home/diablo/diablo_torqueHDRL/build/jointctrlsdk
+[4.103s] [35m[1mScanning dependencies of target jointctrlsdk_core[0m
+[4.171s] [ 33%] [32mBuilding CXX object CMakeFiles/jointctrlsdk_core.dir/src/crc_verify.cpp.o[0m
+[4.173s] [ 33%] [32mBuilding CXX object CMakeFiles/jointctrlsdk_core.dir/src/serial_handle.cpp.o[0m
+[4.175s] [ 50%] [32mBuilding CXX object CMakeFiles/jointctrlsdk_core.dir/src/SerialPort/SerialPort.cpp.o[0m
+[6.417s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/serial_handle.cpp:[m[K In function ‘[01m[Kuint16_t torque_2_package(_Float32)[m[K’:
+[6.418s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/serial_handle.cpp:119:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kout_buf[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[6.419s]   119 |     uint16_t [01;35m[Kout_buf[m[K;
+[6.419s]       |              [01;35m[K^~~~~~~[m[K
+[6.420s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/serial_handle.cpp:[m[K In member function ‘[01m[Kvoid SerialHandle::create_package(_Float32*, motor_torque_t&)[m[K’:
+[6.421s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/serial_handle.cpp:127:28:[m[K [01;35m[Kwarning: [m[Koverflow in conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kint16_t[m[K’ {aka ‘[01m[Kshort int[m[K’} changes value from ‘[01m[K48042[m[K’ to ‘[01m[K-17494[m[K’ [[01;35m[K-Woverflow[m[K]
+[6.422s]   127 |     motor_package.header = [01;35m[K0xBBAA[m[K;
+[6.422s]       |                            [01;35m[K^~~~~~[m[K
+[7.177s] [ 66%] [32m[1mLinking CXX shared library libjointctrlsdk_core.so[0m
+[7.596s] [ 66%] Built target jointctrlsdk_core
+[7.804s] [ 83%] [32m[1mLinking CXX executable diablo_torquesubscriber[0m
+[9.011s] [100%] Built target diablo_torquesubscriber
+[9.064s] Invoked command in '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk' returned '0': CMAKE_PREFIX_PATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces:/home/diablo/diablo_torqueHDRL/install/jointctrlsdk:/home/diablo/diablo_ws/install/diablo_ctrl:/home/diablo/diablo_ws/install/diablo_body:/home/diablo/diablo_ws/install/diablo_utils:/home/diablo/diablo_ws/install/motion_msgs:/home/diablo/diablo_ws/install/ception_msgs:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy LD_LIBRARY_PATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib:/home/diablo/diablo_torqueHDRL/install/jointctrlsdk/lib:/home/diablo/diablo_ws/install/diablo_body/lib:/home/diablo/diablo_ws/install/diablo_utils/lib:/home/diablo/diablo_ws/install/motion_msgs/lib:/home/diablo/diablo_ws/install/ception_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /home/diablo/diablo_torqueHDRL/build/jointctrlsdk -- -j4 -l4
+[9.338s] Invoking command in '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk': CMAKE_PREFIX_PATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces:/home/diablo/diablo_torqueHDRL/install/jointctrlsdk:/home/diablo/diablo_ws/install/diablo_ctrl:/home/diablo/diablo_ws/install/diablo_body:/home/diablo/diablo_ws/install/diablo_utils:/home/diablo/diablo_ws/install/motion_msgs:/home/diablo/diablo_ws/install/ception_msgs:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy LD_LIBRARY_PATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib:/home/diablo/diablo_torqueHDRL/install/jointctrlsdk/lib:/home/diablo/diablo_ws/install/diablo_body/lib:/home/diablo/diablo_ws/install/diablo_utils/lib:/home/diablo/diablo_ws/install/motion_msgs/lib:/home/diablo/diablo_ws/install/ception_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --install /home/diablo/diablo_torqueHDRL/build/jointctrlsdk
+[9.383s] -- Install configuration: ""
+[9.384s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/include/
+[9.385s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/include//jointctrlsdk
+[9.385s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/include//joint_ctrl_protocol.h
+[9.386s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/include//crc_verify.hpp
+[9.386s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/include//VulcanSerial
+[9.386s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/include//VulcanSerial/Exception.hpp
+[9.387s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/include//VulcanSerial/SerialPort.hpp
+[9.387s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/include//diablo_tctrl.hpp
+[9.388s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/include//serial_handle.hpp
+[9.388s] -- Installing: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/lib/libjointctrlsdk_core.so
+[9.391s] -- Set runtime path of "/home/diablo/diablo_torqueHDRL/install/jointctrlsdk/lib/libjointctrlsdk_core.so" to ""
+[9.392s] -- Installing: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/lib/jointctrlsdk/diablo_torquesubscriber
+[9.407s] -- Set runtime path of "/home/diablo/diablo_torqueHDRL/install/jointctrlsdk/lib/jointctrlsdk/diablo_torquesubscriber" to ""
+[9.407s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/include/jointctrlsdk
+[9.408s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/include/jointctrlsdk/jointctrlsdk
+[9.408s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/include/jointctrlsdk/joint_ctrl_protocol.h
+[9.409s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/include/jointctrlsdk/crc_verify.hpp
+[9.409s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/include/jointctrlsdk/VulcanSerial
+[9.410s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/include/jointctrlsdk/VulcanSerial/Exception.hpp
+[9.410s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/include/jointctrlsdk/VulcanSerial/SerialPort.hpp
+[9.410s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/include/jointctrlsdk/diablo_tctrl.hpp
+[9.411s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/include/jointctrlsdk/serial_handle.hpp
+[9.411s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/lib/libjointctrlsdk_core.so
+[9.412s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/environment/library_path.sh
+[9.412s] -- Installing: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/environment/library_path.dsv
+[9.414s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/ament_index/resource_index/package_run_dependencies/jointctrlsdk
+[9.414s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/ament_index/resource_index/parent_prefix_path/jointctrlsdk
+[9.415s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/environment/ament_prefix_path.sh
+[9.415s] -- Installing: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/environment/ament_prefix_path.dsv
+[9.416s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/environment/path.sh
+[9.417s] -- Installing: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/environment/path.dsv
+[9.418s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/local_setup.bash
+[9.419s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/local_setup.sh
+[9.419s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/local_setup.zsh
+[9.419s] -- Installing: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/local_setup.dsv
+[9.420s] -- Installing: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/package.dsv
+[9.422s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/ament_index/resource_index/packages/jointctrlsdk
+[9.424s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.424s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/cmake/ament_cmake_export_libraries-extras.cmake
+[9.425s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.425s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/cmake/jointctrlsdkConfig.cmake
+[9.426s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/cmake/jointctrlsdkConfig-version.cmake
+[9.426s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/package.xml
+[9.433s] Invoked command in '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk' returned '0': CMAKE_PREFIX_PATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces:/home/diablo/diablo_torqueHDRL/install/jointctrlsdk:/home/diablo/diablo_ws/install/diablo_ctrl:/home/diablo/diablo_ws/install/diablo_body:/home/diablo/diablo_ws/install/diablo_utils:/home/diablo/diablo_ws/install/motion_msgs:/home/diablo/diablo_ws/install/ception_msgs:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy LD_LIBRARY_PATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib:/home/diablo/diablo_torqueHDRL/install/jointctrlsdk/lib:/home/diablo/diablo_ws/install/diablo_body/lib:/home/diablo/diablo_ws/install/diablo_utils/lib:/home/diablo/diablo_ws/install/motion_msgs/lib:/home/diablo/diablo_ws/install/ception_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --install /home/diablo/diablo_torqueHDRL/build/jointctrlsdk

@@ -1,0 +1,37 @@
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:91:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+   91 | }
+      | 
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:32:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   32 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "I heard:" '%s', msg->data;
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:11:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   11 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:[m[K In constructor ‘[01m[KTorqueSubscriber::TorqueSubscriber()[m[K’:
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:16:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+   16 |         [01;31m[Ksubscription_[m[K = this->create_subscription<std_msgs::msg::Float32MultiArray>(
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+      |         [32m[Krcl_subscription_t[m[K
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:[m[K In member function ‘[01m[Kconst std::array<float, 6>& TorqueSubscriber::getTorqueValues() const[m[K’:
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:23:16:[m[K [01;31m[Kerror: [m[K‘[01m[Ktorque_values_[m[K’ was not declared in this scope
+   23 |         return [01;31m[Ktorque_values_[m[K;
+      |                [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:[m[K In member function ‘[01m[Kvoid TorqueSubscriber::torque_callback(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:32:9:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+   32 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "I heard:" '%s', msg->data;
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:32:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:29:5:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   29 |     [01;36m[K{[m[K
+      |     [01;36m[K^[m[K
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:28:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   28 | e_callback([01;35m[Kconst std_msgs::msg::Float32MultiArray::SharedPtr msg[m[K)
+      |            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:[m[K At global scope:
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:32:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+   32 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "I heard:" '%s', msg->data;
+      |         [01;31m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/diablo_torquesubscriber.dir/build.make:63: CMakeFiles/diablo_torquesubscriber.dir/src/diablo_torque.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/diablo_torquesubscriber.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

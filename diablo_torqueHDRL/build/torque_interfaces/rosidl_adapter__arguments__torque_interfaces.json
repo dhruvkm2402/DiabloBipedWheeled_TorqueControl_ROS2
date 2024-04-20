@@ -1,0 +1,6 @@
+{
+  "package_name": "torque_interfaces",
+  "non_idl_tuples": [
+    "/home/diablo/diablo_torqueHDRL/src/torque_interfaces:msg/Torque.msg"
+  ]
+}

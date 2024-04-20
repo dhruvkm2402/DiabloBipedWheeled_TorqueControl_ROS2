@@ -1,0 +1,11 @@
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:66:14:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+   66 |         for ([01;31m[Ki[m[K = 0; i < 6; ++i) {
+      |              [01;31m[K^[m[K
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:67:33:[m[K [01;31m[Kerror: [m[K‘[01m[Ktorque_Values[m[K’ was not declared in this scope; did you mean ‘[01m[Ktorque_values[m[K’?
+   67 |             torque_values2[i] = [01;31m[Ktorque_Values[m[K[i];
+      |                                 [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                 [32m[Ktorque_values[m[K
+make[2]: *** [CMakeFiles/diablo_torquesubscriber.dir/build.make:63: CMakeFiles/diablo_torquesubscriber.dir/src/diablo_torque.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/diablo_torquesubscriber.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

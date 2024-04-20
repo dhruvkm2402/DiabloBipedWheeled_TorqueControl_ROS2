@@ -1,0 +1,11 @@
+[0.086s] Invoking command in '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk': AMENT_PREFIX_PATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces:/home/diablo/diablo_ws/install/diablo_ctrl:/home/diablo/diablo_ws/install/diablo_body:/home/diablo/diablo_ws/install/diablo_utils:/home/diablo/diablo_ws/install/motion_msgs:/home/diablo/diablo_ws/install/ception_msgs:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy LD_LIBRARY_PATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/diablo/diablo_torqueHDRL/build/jointctrlsdk -- -j4 -l4
+[0.430s] [ 66%] Built target jointctrlsdk_core
+[0.634s] [ 83%] [32m[1mLinking CXX executable diablo_torquesubscriber[0m
+[0.865s] /usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':
+[0.865s] (.text+0x18): undefined reference to `main'
+[0.866s] /usr/bin/ld: (.text+0x1c): undefined reference to `main'
+[0.866s] collect2: error: ld returned 1 exit status
+[0.870s] make[2]: *** [CMakeFiles/diablo_torquesubscriber.dir/build.make:137: diablo_torquesubscriber] Error 1
+[0.870s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/diablo_torquesubscriber.dir/all] Error 2
+[0.871s] make: *** [Makefile:141: all] Error 2
+[0.879s] Invoked command in '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk' returned '2': AMENT_PREFIX_PATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces:/home/diablo/diablo_ws/install/diablo_ctrl:/home/diablo/diablo_ws/install/diablo_body:/home/diablo/diablo_ws/install/diablo_utils:/home/diablo/diablo_ws/install/motion_msgs:/home/diablo/diablo_ws/install/ception_msgs:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy LD_LIBRARY_PATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/diablo/diablo_torqueHDRL/build/jointctrlsdk -- -j4 -l4

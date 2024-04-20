@@ -1,0 +1,3 @@
+[ 66%] Built target jointctrlsdk_core
+[35m[1mScanning dependencies of target diablo_torquesubscriber[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/diablo_torquesubscriber.dir/src/diablo_torque.cpp.o[0m

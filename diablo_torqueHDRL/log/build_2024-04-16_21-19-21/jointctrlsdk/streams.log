@@ -1,0 +1,53 @@
+[0.073s] Invoking command in '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/diablo/diablo_torqueHDRL/build/jointctrlsdk -- -j4 -l4
+[0.422s] [ 66%] Built target jointctrlsdk_core
+[0.492s] [35m[1mScanning dependencies of target diablo_torquesubscriber[0m
+[0.662s] [ 83%] [32mBuilding CXX object CMakeFiles/diablo_torquesubscriber.dir/src/diablo_torque.cpp.o[0m
+[6.666s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:12:23:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kconst std::array<float, 6>& TorqueSubscriber::getTorqueValues() const[m[K’
+[6.666s]    12 | const array<float,6>& [01;31m[KTorqueSubscriber[m[K::getTorqueValues() const {
+[6.667s]       |                       [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[6.668s] In file included from [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:2[m[K:
+[6.669s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/include/diablo_tctrl.hpp:15:18:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kconst float* TorqueSubscriber::getTorqueValues() const[m[K’
+[6.669s]    15 |     const float* [01;36m[KgetTorqueValues[m[K() const;
+[6.670s]       |                  [01;36m[K^~~~~~~~~~~~~~~[m[K
+[6.671s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/include/diablo_tctrl.hpp:9:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass TorqueSubscriber[m[K’ defined here
+[6.671s]     9 | class [01;36m[KTorqueSubscriber[m[K : public rclcpp::Node
+[6.672s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[6.700s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[6.701s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:43:54:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kconst std::array<float, 6>&[m[K’ from expression of type ‘[01m[K<unresolved overloaded function type>[m[K’
+[6.702s]    43 |         const array<float, 6>& torque_values = [01;31m[Knode->getTorqueValues[m[K;
+[6.703s]       |                                                [01;31m[K~~~~~~^~~~~~~~~~~~~~~[m[K
+[6.704s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:48:19:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K=[m[K’ token
+[6.705s]    48 |         for(size_t[01;31m[K=[m[Ki; i<torque_values.size();i++){
+[6.706s]       |                   [01;31m[K^[m[K
+[6.707s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:48:19:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K=[m[K’ token
+[6.709s]    48 |         for(size_t[01;31m[K=[m[Ki; i<torque_values.size();i++){
+[6.710s]       |                   [01;31m[K^[m[K
+[6.711s]       |                   [32m[K;[m[K
+[6.712s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:48:19:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K=[m[K’ token
+[6.713s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:48:20:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+[6.713s]    48 |         for(size_t=[01;31m[Ki[m[K; i<torque_values.size();i++){
+[6.714s]       |                    [01;31m[K^[m[K
+[6.715s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:48:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[6.716s]    48 |         for[34m[K([m[Ksize_t=i; i<torque_values.size()[01;31m[K;[m[Ki++){
+[6.717s]       |            [34m[K~[m[K                                [01;31m[K^[m[K
+[6.717s]       |                                             [32m[K)[m[K
+[6.717s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:48:9:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kfor[m[K’ clause does not guard... [[01;35m[K-Wmisleading-indentation[m[K]
+[6.718s]    48 |         [01;35m[Kfor[m[K(size_t=i; i<torque_values.size();i++){
+[6.718s]       |         [01;35m[K^~~[m[K
+[6.720s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:48:46:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kfor[m[K’
+[6.721s]    48 |         for(size_t=i; i<torque_values.size();[01;36m[Ki[m[K++){
+[6.721s]       |                                              [01;36m[K^[m[K
+[6.722s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:48:46:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+[6.723s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:52:31:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst std::array<float, 6>[m[K’ to ‘[01m[K_Float32*[m[K’ {aka ‘[01m[Kfloat*[m[K’}
+[6.723s]    52 |         handle.create_package([01;31m[Ktorque_values[m[K, send_struct);
+[6.724s]       |                               [01;31m[K^~~~~~~~~~~~~[m[K
+[6.725s]       |                               [01;31m[K|[m[K
+[6.726s]       |                               [01;31m[Kconst std::array<float, 6>[m[K
+[6.726s] In file included from [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:3[m[K:
+[6.727s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/include/serial_handle.hpp:35:35:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid SerialHandle::create_package(_Float32*, motor_torque_t&)[m[K’
+[6.728s]    35 |     void create_package([01;36m[K_Float32* motor_tor[m[K,motor_torque_t &motor_package);
+[6.728s]       |                         [01;36m[K~~~~~~~~~~^~~~~~~~~[m[K
+[12.707s] make[2]: *** [CMakeFiles/diablo_torquesubscriber.dir/build.make:63: CMakeFiles/diablo_torquesubscriber.dir/src/diablo_torque.cpp.o] Error 1
+[12.708s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/diablo_torquesubscriber.dir/all] Error 2
+[12.709s] make: *** [Makefile:141: all] Error 2
+[12.810s] Invoked command in '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/diablo/diablo_torqueHDRL/build/jointctrlsdk -- -j4 -l4

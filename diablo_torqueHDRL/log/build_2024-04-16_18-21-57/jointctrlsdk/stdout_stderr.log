@@ -1,0 +1,13 @@
+[ 66%] Built target jointctrlsdk_core
+[35m[1mScanning dependencies of target diablo_torquesubscriber[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/diablo_torquesubscriber.dir/src/diablo_torque.cpp.o[0m
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:39:12:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   39 |     while ([01;31m[K)[m[K // Continuously loop as long as the ROS 2 node is running
+      |            [01;31m[K^[m[K
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:44:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktorque_values2[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   44 |         float [01;35m[Ktorque_values2[m[K[6] = {*torque_values};
+      |               [01;35m[K^~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/diablo_torquesubscriber.dir/build.make:63: CMakeFiles/diablo_torquesubscriber.dir/src/diablo_torque.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/diablo_torquesubscriber.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,13 @@
+[0.070s] Invoking command in '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/diablo/diablo_torqueHDRL/build/jointctrlsdk -- -j4 -l4
+[0.406s] [ 66%] Built target jointctrlsdk_core
+[0.471s] [35m[1mScanning dependencies of target diablo_torquesubscriber[0m
+[0.635s] [ 83%] [32mBuilding CXX object CMakeFiles/diablo_torquesubscriber.dir/src/diablo_torque.cpp.o[0m
+[6.625s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[6.626s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:67:33:[m[K [01;31m[Kerror: [m[K‘[01m[Ktorque_Values[m[K’ was not declared in this scope; did you mean ‘[01m[Ktorque_values[m[K’?
+[6.626s]    67 |             torque_values2[i] = [01;31m[Ktorque_Values[m[K[i];
+[6.627s]       |                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[6.628s]       |                                 [32m[Ktorque_values[m[K
+[12.471s] make[2]: *** [CMakeFiles/diablo_torquesubscriber.dir/build.make:63: CMakeFiles/diablo_torquesubscriber.dir/src/diablo_torque.cpp.o] Error 1
+[12.471s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/diablo_torquesubscriber.dir/all] Error 2
+[12.472s] make: *** [Makefile:141: all] Error 2
+[12.479s] Invoked command in '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/diablo/diablo_torqueHDRL/build/jointctrlsdk -- -j4 -l4

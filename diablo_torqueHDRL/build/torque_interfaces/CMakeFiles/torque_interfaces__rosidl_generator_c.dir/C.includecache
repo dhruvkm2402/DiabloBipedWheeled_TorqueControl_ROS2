@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/diablo/diablo_torqueHDRL/build/torque_interfaces/rosidl_generator_c/torque_interfaces/msg/detail/torque__functions.c
+torque_interfaces/msg/detail/torque__functions.h
+/home/diablo/diablo_torqueHDRL/build/torque_interfaces/rosidl_generator_c/torque_interfaces/msg/detail/torque_interfaces/msg/detail/torque__functions.h
+assert.h
+-
+stdbool.h
+-
+stdlib.h
+-
+string.h
+-
+
+/opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
+
+rosidl_generator_c/torque_interfaces/msg/detail/torque__functions.h
+stdbool.h
+-
+stdlib.h
+-
+rosidl_runtime_c/visibility_control.h
+rosidl_generator_c/torque_interfaces/msg/detail/rosidl_runtime_c/visibility_control.h
+torque_interfaces/msg/rosidl_generator_c__visibility_control.h
+rosidl_generator_c/torque_interfaces/msg/detail/torque_interfaces/msg/rosidl_generator_c__visibility_control.h
+torque_interfaces/msg/detail/torque__struct.h
+rosidl_generator_c/torque_interfaces/msg/detail/torque_interfaces/msg/detail/torque__struct.h
+
+rosidl_generator_c/torque_interfaces/msg/detail/torque__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+
+rosidl_generator_c/torque_interfaces/msg/rosidl_generator_c__visibility_control.h
+

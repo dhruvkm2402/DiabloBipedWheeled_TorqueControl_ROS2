@@ -1,0 +1,169 @@
+[0.070s] Invoking command in '/home/diablo/diablo_torqueHDRL/build/torque_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/diablo/diablo_torqueHDRL/build/torque_interfaces -- -j4 -l4
+[0.212s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.324s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.324s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.267s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.280s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.295s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.617s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.735s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[3.039s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.750s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[5.180s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.463s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.591s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[5.592s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[5.710s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.711s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[5.712s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[5.871s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.921s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.936s] -- Added test 'lint_cmake' to check CMake code style
+[5.944s] -- Added test 'xmllint' to check XML markup files
+[5.974s] -- Configuring done
+[6.215s] -- Generating done
+[6.232s] -- Build files have been written to: /home/diablo/diablo_torqueHDRL/build/torque_interfaces
+[6.413s] [  3%] Built target torque_interfaces__cpp
+[6.433s] [  6%] [32m[1mLinking C shared library libtorque_interfaces__rosidl_generator_c.so[0m
+[6.562s] [  9%] [32m[1mLinking CXX shared library libtorque_interfaces__rosidl_typesupport_cpp.so[0m
+[6.572s] [ 12%] [32m[1mLinking CXX shared library libtorque_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[6.621s] [ 16%] [32m[1mLinking CXX shared library libtorque_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.666s] [ 22%] Built target torque_interfaces__rosidl_generator_c
+[6.824s] [ 29%] Built target torque_interfaces__rosidl_typesupport_cpp
+[6.867s] [ 32%] [32m[1mLinking C shared library libtorque_interfaces__rosidl_typesupport_introspection_c.so[0m
+[7.003s] [ 38%] Built target torque_interfaces__rosidl_typesupport_introspection_cpp
+[7.038s] [ 41%] [32m[1mLinking CXX shared library libtorque_interfaces__rosidl_typesupport_c.so[0m
+[7.113s] [ 48%] Built target torque_interfaces__rosidl_typesupport_introspection_c
+[7.227s] [ 54%] Built target torque_interfaces__rosidl_typesupport_fastrtps_cpp
+[7.279s] [ 61%] Built target torque_interfaces__rosidl_typesupport_c
+[7.293s] [35m[1mScanning dependencies of target torque_interfaces__rosidl_typesupport_fastrtps_c[0m
+[7.362s] [ 64%] [32mBuilding CXX object CMakeFiles/torque_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/torque_interfaces/msg/detail/torque__type_support_c.cpp.o[0m
+[8.983s] [ 67%] [32m[1mLinking CXX shared library libtorque_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[9.428s] [ 70%] Built target torque_interfaces__rosidl_typesupport_fastrtps_c
+[9.541s] [ 70%] Built target torque_interfaces
+[9.655s] [ 74%] Built target torque_interfaces__py
+[9.830s] [ 77%] [32m[1mLinking C shared library rosidl_generator_py/torque_interfaces/libtorque_interfaces__python.so[0m
+[10.058s] [ 80%] Built target torque_interfaces__python
+[10.126s] [35m[1mScanning dependencies of target torque_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[10.200s] [ 83%] [32mBuilding C object CMakeFiles/torque_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/torque_interfaces/_torque_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[10.241s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/torque_interfaces/torque_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[10.244s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/torque_interfaces/torque_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[10.496s] [ 93%] Built target torque_interfaces__rosidl_typesupport_c__pyext
+[10.500s] [ 96%] Built target torque_interfaces__rosidl_typesupport_introspection_c__pyext
+[10.700s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/torque_interfaces/torque_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[11.028s] [100%] Built target torque_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[11.082s] Invoked command in '/home/diablo/diablo_torqueHDRL/build/torque_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/diablo/diablo_torqueHDRL/build/torque_interfaces -- -j4 -l4
+[11.519s] Invoking command in '/home/diablo/diablo_torqueHDRL/build/torque_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy /usr/bin/cmake --install /home/diablo/diablo_torqueHDRL/build/torque_interfaces
+[11.567s] -- Install configuration: ""
+[11.568s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/ament_index/resource_index/rosidl_interfaces/torque_interfaces
+[11.569s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces
+[11.570s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg
+[11.571s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/rosidl_generator_c__visibility_control.h
+[11.572s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/torque.h
+[11.573s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/detail
+[11.573s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/detail/torque__struct.h
+[11.574s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/detail/torque__functions.c
+[11.575s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/detail/torque__functions.h
+[11.575s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/detail/torque__type_support.h
+[11.576s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/environment/library_path.sh
+[11.577s] -- Installing: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/environment/library_path.dsv
+[11.577s] -- Installing: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/libtorque_interfaces__rosidl_generator_c.so
+[11.579s] -- Set runtime path of "/home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/libtorque_interfaces__rosidl_generator_c.so" to ""
+[11.580s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces
+[11.581s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg
+[11.581s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.583s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/detail
+[11.584s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/detail/torque__rosidl_typesupport_fastrtps_c.h
+[11.584s] -- Installing: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/libtorque_interfaces__rosidl_typesupport_fastrtps_c.so
+[11.586s] -- Set runtime path of "/home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/libtorque_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[11.587s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces
+[11.588s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg
+[11.589s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.589s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/detail
+[11.590s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/detail/torque__rosidl_typesupport_fastrtps_cpp.hpp
+[11.591s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/detail/dds_fastrtps
+[11.591s] -- Installing: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/libtorque_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[11.594s] -- Set runtime path of "/home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/libtorque_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[11.595s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces
+[11.596s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg
+[11.597s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.598s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/detail
+[11.598s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/detail/torque__rosidl_typesupport_introspection_c.h
+[11.599s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/detail/torque__type_support.c
+[11.600s] -- Installing: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/libtorque_interfaces__rosidl_typesupport_introspection_c.so
+[11.602s] -- Set runtime path of "/home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/libtorque_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[11.603s] -- Installing: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/libtorque_interfaces__rosidl_typesupport_c.so
+[11.606s] -- Set runtime path of "/home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/libtorque_interfaces__rosidl_typesupport_c.so" to ""
+[11.608s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces
+[11.608s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg
+[11.609s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/torque.hpp
+[11.610s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/detail
+[11.612s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/detail/torque__struct.hpp
+[11.613s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/detail/torque__traits.hpp
+[11.613s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/detail/torque__builder.hpp
+[11.614s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces
+[11.615s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg
+[11.616s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/detail
+[11.616s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/detail/torque__rosidl_typesupport_introspection_cpp.hpp
+[11.617s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/detail/torque__type_support.cpp
+[11.618s] -- Installing: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/libtorque_interfaces__rosidl_typesupport_introspection_cpp.so
+[11.618s] -- Set runtime path of "/home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/libtorque_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[11.619s] -- Installing: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/libtorque_interfaces__rosidl_typesupport_cpp.so
+[11.622s] -- Set runtime path of "/home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/libtorque_interfaces__rosidl_typesupport_cpp.so" to ""
+[11.623s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/environment/pythonpath.sh
+[11.624s] -- Installing: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/environment/pythonpath.dsv
+[11.625s] -- Installing: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/python3.8/site-packages/torque_interfaces/__init__.py
+[11.775s] Compiling '/home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/python3.8/site-packages/torque_interfaces/__init__.py'...
+[11.799s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/python3.8/site-packages/torque_interfaces/msg
+[11.800s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/python3.8/site-packages/torque_interfaces/msg/_torque.py
+[11.800s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/python3.8/site-packages/torque_interfaces/msg/__init__.py
+[11.801s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/python3.8/site-packages/torque_interfaces/msg/_torque_s.c
+[11.802s] -- Installing: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/python3.8/site-packages/torque_interfaces/torque_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[11.805s] -- Set runtime path of "/home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/python3.8/site-packages/torque_interfaces/torque_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+[11.807s] -- Installing: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/python3.8/site-packages/torque_interfaces/torque_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[11.811s] -- Set runtime path of "/home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/python3.8/site-packages/torque_interfaces/torque_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+[11.813s] -- Installing: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/python3.8/site-packages/torque_interfaces/torque_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[11.817s] -- Set runtime path of "/home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/python3.8/site-packages/torque_interfaces/torque_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+[11.818s] -- Installing: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/libtorque_interfaces__python.so
+[11.821s] -- Set runtime path of "/home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/libtorque_interfaces__python.so" to ""
+[11.821s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/msg/Torque.idl
+[11.822s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/msg/Torque.msg
+[11.822s] -- Installing: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/ament_index/resource_index/package_run_dependencies/torque_interfaces
+[11.824s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/ament_index/resource_index/parent_prefix_path/torque_interfaces
+[11.824s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/environment/ament_prefix_path.sh
+[11.824s] -- Installing: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/environment/ament_prefix_path.dsv
+[11.826s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/environment/path.sh
+[11.826s] -- Installing: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/environment/path.dsv
+[11.828s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/local_setup.bash
+[11.828s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/local_setup.sh
+[11.828s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/local_setup.zsh
+[11.829s] -- Installing: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/local_setup.dsv
+[11.830s] -- Installing: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/package.dsv
+[11.832s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/ament_index/resource_index/packages/torque_interfaces
+[11.833s] -- Old export file "/home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/torque_interfaces__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/torque_interfaces__rosidl_generator_cExport-noconfig.cmake].
+[11.833s] -- Installing: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/torque_interfaces__rosidl_generator_cExport.cmake
+[11.835s] -- Installing: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/torque_interfaces__rosidl_generator_cExport-noconfig.cmake
+[11.837s] -- Old export file "/home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/torque_interfaces__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/torque_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake].
+[11.838s] -- Installing: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/torque_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[11.840s] -- Installing: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/torque_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.842s] -- Old export file "/home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/torque_interfaces__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/torque_interfaces__rosidl_typesupport_cExport-noconfig.cmake].
+[11.842s] -- Installing: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/torque_interfaces__rosidl_typesupport_cExport.cmake
+[11.844s] -- Installing: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/torque_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[11.846s] -- Installing: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/torque_interfaces__rosidl_generator_cppExport.cmake
+[11.849s] -- Old export file "/home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/torque_interfaces__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/torque_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake].
+[11.849s] -- Installing: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/torque_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[11.851s] -- Installing: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/torque_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.853s] -- Old export file "/home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/torque_interfaces__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/torque_interfaces__rosidl_typesupport_cppExport-noconfig.cmake].
+[11.854s] -- Installing: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/torque_interfaces__rosidl_typesupport_cppExport.cmake
+[11.855s] -- Installing: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/torque_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[11.857s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/rosidl_cmake-extras.cmake
+[11.857s] -- Installing: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.859s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[11.859s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[11.860s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.860s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.861s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.861s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/torque_interfacesConfig.cmake
+[11.862s] -- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/torque_interfacesConfig-version.cmake
+[11.862s] -- Installing: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/package.xml
+[11.872s] Invoked command in '/home/diablo/diablo_torqueHDRL/build/torque_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy /usr/bin/cmake --install /home/diablo/diablo_torqueHDRL/build/torque_interfaces

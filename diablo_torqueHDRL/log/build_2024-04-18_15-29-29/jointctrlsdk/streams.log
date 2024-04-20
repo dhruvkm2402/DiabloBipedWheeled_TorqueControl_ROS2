@@ -1,0 +1,12 @@
+[0.084s] Invoking command in '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk': AMENT_PREFIX_PATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces:/home/diablo/diablo_ws/install/diablo_ctrl:/home/diablo/diablo_ws/install/diablo_body:/home/diablo/diablo_ws/install/diablo_utils:/home/diablo/diablo_ws/install/motion_msgs:/home/diablo/diablo_ws/install/ception_msgs:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy LD_LIBRARY_PATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/diablo/diablo_torqueHDRL/build/jointctrlsdk -- -j4 -l4
+[0.436s] [ 66%] Built target jointctrlsdk_core
+[0.505s] [35m[1mScanning dependencies of target diablo_torquesubscriber[0m
+[0.670s] [ 83%] [32mBuilding CXX object CMakeFiles/diablo_torquesubscriber.dir/src/diablo_torque.cpp.o[0m
+[1.197s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Ktorque_interfaces/msg/Torque.hpp: No such file or directory
+[1.198s]     8 | #include [01;31m[K"torque_interfaces/msg/Torque.hpp"[m[K
+[1.198s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.199s] compilation terminated.
+[1.204s] make[2]: *** [CMakeFiles/diablo_torquesubscriber.dir/build.make:63: CMakeFiles/diablo_torquesubscriber.dir/src/diablo_torque.cpp.o] Error 1
+[1.205s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/diablo_torquesubscriber.dir/all] Error 2
+[1.206s] make: *** [Makefile:141: all] Error 2
+[1.212s] Invoked command in '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk' returned '2': AMENT_PREFIX_PATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces:/home/diablo/diablo_ws/install/diablo_ctrl:/home/diablo/diablo_ws/install/diablo_body:/home/diablo/diablo_ws/install/diablo_utils:/home/diablo/diablo_ws/install/motion_msgs:/home/diablo/diablo_ws/install/ception_msgs:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy LD_LIBRARY_PATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/diablo/diablo_torqueHDRL/build/jointctrlsdk -- -j4 -l4

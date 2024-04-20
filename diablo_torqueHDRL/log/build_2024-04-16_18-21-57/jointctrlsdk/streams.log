@@ -1,0 +1,15 @@
+[0.071s] Invoking command in '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/diablo/diablo_torqueHDRL/build/jointctrlsdk -- -j4 -l4
+[0.410s] [ 66%] Built target jointctrlsdk_core
+[0.475s] [35m[1mScanning dependencies of target diablo_torquesubscriber[0m
+[0.637s] [ 83%] [32mBuilding CXX object CMakeFiles/diablo_torquesubscriber.dir/src/diablo_torque.cpp.o[0m
+[6.600s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[6.600s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:39:12:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[6.601s]    39 |     while ([01;31m[K)[m[K // Continuously loop as long as the ROS 2 node is running
+[6.601s]       |            [01;31m[K^[m[K
+[6.607s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:44:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktorque_values2[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[6.607s]    44 |         float [01;35m[Ktorque_values2[m[K[6] = {*torque_values};
+[6.608s]       |               [01;35m[K^~~~~~~~~~~~~~[m[K
+[12.421s] make[2]: *** [CMakeFiles/diablo_torquesubscriber.dir/build.make:63: CMakeFiles/diablo_torquesubscriber.dir/src/diablo_torque.cpp.o] Error 1
+[12.422s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/diablo_torquesubscriber.dir/all] Error 2
+[12.423s] make: *** [Makefile:141: all] Error 2
+[12.430s] Invoked command in '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/diablo/diablo_torqueHDRL/build/jointctrlsdk -- -j4 -l4

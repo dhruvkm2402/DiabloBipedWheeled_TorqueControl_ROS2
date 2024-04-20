@@ -1,0 +1,4 @@
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:65:15:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ktorque_values2[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   65 |         float [01;35m[Ktorque_values2[m[K[6];
+      |               [01;35m[K^~~~~~~~~~~~~~[m[K

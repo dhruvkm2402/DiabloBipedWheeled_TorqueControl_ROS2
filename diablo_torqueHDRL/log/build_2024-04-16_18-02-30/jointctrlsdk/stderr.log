@@ -1,0 +1,22 @@
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:45:15:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kfloat torque_values [6][m[K’
+   45 |         float [01;31m[Ktorque_values[m[K[6] = {0.0,0.0,2.0,0.0,0.0,2.5};
+      |               [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:42:22:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kconst float* torque_values[m[K’
+   42 |         const float* [01;36m[Ktorque_values[m[K = node->getTorqueValues();
+      |                      [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:46:31:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst float*[m[K’ to ‘[01m[K_Float32*[m[K’ {aka ‘[01m[Kfloat*[m[K’} [[01;31m[K-fpermissive[m[K]
+   46 |         handle.create_package([01;31m[Ktorque_values[m[K, send_struct);
+      |                               [01;31m[K^~~~~~~~~~~~~[m[K
+      |                               [01;31m[K|[m[K
+      |                               [01;31m[Kconst float*[m[K
+In file included from [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:3[m[K:
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/include/serial_handle.hpp:35:35:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid SerialHandle::create_package(_Float32*, motor_torque_t&)[m[K’
+   35 |     void create_package([01;36m[K_Float32* motor_tor[m[K,motor_torque_t &motor_package);
+      |                         [01;36m[K~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:44:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktorque_values2[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   44 |         float [01;35m[Ktorque_values2[m[K[6] = {*torque_values};
+      |               [01;35m[K^~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/diablo_torquesubscriber.dir/build.make:63: CMakeFiles/diablo_torquesubscriber.dir/src/diablo_torque.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/diablo_torquesubscriber.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

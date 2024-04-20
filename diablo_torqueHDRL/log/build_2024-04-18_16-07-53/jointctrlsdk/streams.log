@@ -1,0 +1,127 @@
+[0.084s] Invoking command in '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk': AMENT_PREFIX_PATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces:/home/diablo/diablo_ws/install/diablo_ctrl:/home/diablo/diablo_ws/install/diablo_body:/home/diablo/diablo_ws/install/diablo_utils:/home/diablo/diablo_ws/install/motion_msgs:/home/diablo/diablo_ws/install/ception_msgs:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy LD_LIBRARY_PATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/diablo/diablo_torqueHDRL/build/jointctrlsdk -- -j4 -l4
+[0.234s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.347s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.550s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.564s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.755s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.963s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.971s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.584s] -- Found torque_interfaces: 0.0.0 (/home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake)
+[3.614s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.922s] -- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[3.949s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.961s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.962s] -- Configured cppcheck include dirs: /home/diablo/diablo_torqueHDRL/src/jointctrlsdk/include
+[3.962s] -- Configured cppcheck exclude dirs and/or files: 
+[3.972s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.973s] -- Configured cpplint exclude dirs and/or files: 
+[3.978s] -- Added test 'lint_cmake' to check CMake code style
+[3.989s] -- Added test 'uncrustify' to check C / C++ code style
+[3.990s] -- Configured uncrustify additional arguments: 
+[3.992s] -- Added test 'xmllint' to check XML markup files
+[4.021s] -- Configuring done
+[4.074s] -- Generating done
+[4.083s] -- Build files have been written to: /home/diablo/diablo_torqueHDRL/build/jointctrlsdk
+[4.316s] [ 66%] Built target jointctrlsdk_core
+[4.385s] [35m[1mScanning dependencies of target diablo_torquesubscriber[0m
+[4.562s] [ 83%] [32mBuilding CXX object CMakeFiles/diablo_torquesubscriber.dir/src/diablo_torque.cpp.o[0m
+[6.671s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:5:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::placeholders[m[K’ has not been declared
+[6.672s]     5 | using std::[01;31m[Kplaceholders[m[K::_1;
+[6.673s]       |            [01;31m[K^~~~~~~~~~~~[m[K
+[10.760s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:[m[K In constructor ‘[01m[KTorqueSubscriber::TorqueSubscriber()[m[K’:
+[10.762s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:18:105:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp::Subscription<torque_interfaces::msg::Torque_<std::allocator<void> > >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<torque_interfaces::msg::Torque_<std::allocator<void> > > >[m[K’} and ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<std_msgs::msg::Float32MultiArray_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32MultiArray_<std::allocator<void> >, std::allocator<void> > > >[m[K’)
+[10.762s]    18 | rqueSubscriber::torque_callback, this, std::placeholders::_1)[01;31m[K)[m[K;
+[10.763s]       |                                                              [01;31m[K^[m[K
+[10.763s] 
+[10.764s] In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+[10.764s]                  from [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:2[m[K:
+[10.765s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:309:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = rclcpp::Subscription<torque_interfaces::msg::Torque_<std::allocator<void> > >][m[K’
+[10.765s]   309 |       shared_ptr& [01;36m[Koperator[m[K=(const shared_ptr&) noexcept = default;
+[10.765s]       |                   [01;36m[K^~~~~~~~[m[K
+[10.766s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:309:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<std_msgs::msg::Float32MultiArray_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32MultiArray_<std::allocator<void> >, std::allocator<void> > > >[m[K’ to ‘[01m[Kconst std::shared_ptr<rclcpp::Subscription<torque_interfaces::msg::Torque_<std::allocator<void> > > >&[m[K’
+[10.766s]   309 |       shared_ptr& operator=([01;36m[Kconst shared_ptr&[m[K) noexcept = default;
+[10.767s]       |                             [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[10.767s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:313:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<torque_interfaces::msg::Torque_<std::allocator<void> > >][m[K’
+[10.768s]   313 |  [01;36m[Koperator[m[K=(const shared_ptr<_Yp>& __r) noexcept
+[10.768s]       |  [01;36m[K^~~~~~~~[m[K
+[10.768s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:313:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.769s] /usr/include/c++/9/bits/shared_ptr.h: In substitution of ‘[01m[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = const std::shared_ptr<rclcpp::Subscription<std_msgs::msg::Float32MultiArray_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32MultiArray_<std::allocator<void> >, std::allocator<void> > > >&; _Tp = rclcpp::Subscription<torque_interfaces::msg::Torque_<std::allocator<void> > >][m[K’:
+[10.769s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:313:2:[m[K   required by substitution of ‘[01m[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Subscription<torque_interfaces::msg::Torque_<std::allocator<void> > > >::_Assignable<const std::shared_ptr<_Tp>&> std::shared_ptr<rclcpp::Subscription<torque_interfaces::msg::Torque_<std::allocator<void> > > >::operator=<_Yp>(const std::shared_ptr<_Tp>&) [with _Yp = rclcpp::Subscription<std_msgs::msg::Float32MultiArray_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32MultiArray_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[10.770s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:18:105:[m[K   required from here
+[10.770s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:111:8:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Subscription<torque_interfaces::msg::Torque_<std::allocator<void> > > >&>[m[K’
+[10.771s]   111 |  using [01;31m[K_Assignable[m[K = typename enable_if<
+[10.771s]       |        [01;31m[K^~~~~~~~~~~[m[K
+[10.772s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:324:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<torque_interfaces::msg::Torque_<std::allocator<void> > >][m[K’
+[10.772s]   324 |  [01;36m[Koperator[m[K=(auto_ptr<_Yp>&& __r)
+[10.773s]       |  [01;36m[K^~~~~~~~[m[K
+[10.773s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:324:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.774s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:18:105:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<std_msgs::msg::Float32MultiArray_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32MultiArray_<std::allocator<void> >, std::allocator<void> > > >[m[K’ is not derived from ‘[01m[Kstd::auto_ptr<_Up>[m[K’
+[10.775s]    18 | rqueSubscriber::torque_callback, this, std::placeholders::_1)[01;36m[K)[m[K;
+[10.776s]       |                                                              [01;36m[K^[m[K
+[10.776s] 
+[10.777s] In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+[10.777s]                  from [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:2[m[K:
+[10.777s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:333:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = rclcpp::Subscription<torque_interfaces::msg::Torque_<std::allocator<void> > >][m[K’
+[10.778s]   333 |       [01;36m[Koperator[m[K=(shared_ptr&& __r) noexcept
+[10.779s]       |       [01;36m[K^~~~~~~~[m[K
+[10.779s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:333:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<std_msgs::msg::Float32MultiArray_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32MultiArray_<std::allocator<void> >, std::allocator<void> > > >[m[K’ to ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<torque_interfaces::msg::Torque_<std::allocator<void> > > >&&[m[K’
+[10.780s]   333 |       operator=([01;36m[Kshared_ptr&& __r[m[K) noexcept
+[10.780s]       |                 [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[10.781s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:341:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<torque_interfaces::msg::Torque_<std::allocator<void> > >][m[K’
+[10.781s]   341 |  [01;36m[Koperator[m[K=(shared_ptr<_Yp>&& __r) noexcept
+[10.781s]       |  [01;36m[K^~~~~~~~[m[K
+[10.782s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:341:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.782s] /usr/include/c++/9/bits/shared_ptr.h: In substitution of ‘[01m[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = std::shared_ptr<rclcpp::Subscription<std_msgs::msg::Float32MultiArray_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32MultiArray_<std::allocator<void> >, std::allocator<void> > > >; _Tp = rclcpp::Subscription<torque_interfaces::msg::Torque_<std::allocator<void> > >][m[K’:
+[10.783s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:341:2:[m[K   required by substitution of ‘[01m[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Subscription<torque_interfaces::msg::Torque_<std::allocator<void> > > >::_Assignable<std::shared_ptr<_Tp> > std::shared_ptr<rclcpp::Subscription<torque_interfaces::msg::Torque_<std::allocator<void> > > >::operator=<_Yp>(std::shared_ptr<_Tp>&&) [with _Yp = rclcpp::Subscription<std_msgs::msg::Float32MultiArray_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32MultiArray_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[10.783s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:18:105:[m[K   required from here
+[10.784s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:111:8:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Subscription<torque_interfaces::msg::Torque_<std::allocator<void> > > >&>[m[K’
+[10.784s]   111 |  using [01;31m[K_Assignable[m[K = typename enable_if<
+[10.785s]       |        [01;31m[K^~~~~~~~~~~[m[K
+[10.785s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:349:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = rclcpp::Subscription<torque_interfaces::msg::Torque_<std::allocator<void> > >][m[K’
+[10.785s]   349 |  [01;36m[Koperator[m[K=(unique_ptr<_Yp, _Del>&& __r)
+[10.786s]       |  [01;36m[K^~~~~~~~[m[K
+[10.786s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:349:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.787s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:18:105:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<std_msgs::msg::Float32MultiArray_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32MultiArray_<std::allocator<void> >, std::allocator<void> > > >[m[K’ is not derived from ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’
+[10.787s]    18 | rqueSubscriber::torque_callback, this, std::placeholders::_1)[01;36m[K)[m[K;
+[10.788s]       |                                                              [01;36m[K^[m[K
+[10.788s] 
+[10.789s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:[m[K In member function ‘[01m[Kvoid TorqueSubscriber::torque_callback(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[10.789s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:32:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct std_msgs::msg::Float32MultiArray_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct std_msgs::msg::Float32MultiArray_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kt_hr[m[K’
+[10.790s]    32 |         torque_values_ = {msg->[01;31m[Kt_hr[m[K, msg->t_kr, msg->t_wr, msg->t_hl, msg->t_kl, msg->t_wl};
+[10.790s]       |                                [01;31m[K^~~~[m[K
+[10.791s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:32:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct std_msgs::msg::Float32MultiArray_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct std_msgs::msg::Float32MultiArray_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kt_kr[m[K’
+[10.791s]    32 |         torque_values_ = {msg->t_hr, msg->[01;31m[Kt_kr[m[K, msg->t_wr, msg->t_hl, msg->t_kl, msg->t_wl};
+[10.792s]       |                                           [01;31m[K^~~~[m[K
+[10.792s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:32:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct std_msgs::msg::Float32MultiArray_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct std_msgs::msg::Float32MultiArray_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kt_wr[m[K’
+[10.792s]    32 |         torque_values_ = {msg->t_hr, msg->t_kr, msg->[01;31m[Kt_wr[m[K, msg->t_hl, msg->t_kl, msg->t_wl};
+[10.793s]       |                                                      [01;31m[K^~~~[m[K
+[10.793s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:32:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct std_msgs::msg::Float32MultiArray_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct std_msgs::msg::Float32MultiArray_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kt_hl[m[K’
+[10.794s]    32 |      torque_values_ = {msg->t_hr, msg->t_kr, msg->t_wr, msg->[01;31m[Kt_hl[m[K, msg->t_kl, msg->t_wl};
+[10.794s]       |                                                              [01;31m[K^~~~[m[K
+[10.795s] 
+[10.795s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:32:76:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct std_msgs::msg::Float32MultiArray_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct std_msgs::msg::Float32MultiArray_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kt_kl[m[K’
+[10.796s]    32 | e_values_ = {msg->t_hr, msg->t_kr, msg->t_wr, msg->t_hl, msg->[01;31m[Kt_kl[m[K, msg->t_wl};
+[10.796s]       |                                                               [01;31m[K^~~~[m[K
+[10.797s] 
+[10.797s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:32:87:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct std_msgs::msg::Float32MultiArray_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct std_msgs::msg::Float32MultiArray_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kt_wl[m[K’
+[10.797s]    32 | {msg->t_hr, msg->t_kr, msg->t_wr, msg->t_hl, msg->t_kl, msg->[01;31m[Kt_wl[m[K};
+[10.798s]       |                                                              [01;31m[K^~~~[m[K
+[10.798s] 
+[10.799s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:32:91:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::array<float, 6>[m[K’ and ‘[01m[K<brace-enclosed initializer list>[m[K’)
+[10.799s]    32 | ->t_hr, msg->t_kr, msg->t_wr, msg->t_hl, msg->t_kl, msg->t_wl[01;31m[K}[m[K;
+[10.800s]       |                                                              [01;31m[K^[m[K
+[10.800s] 
+[10.801s] In file included from [01m[K/usr/include/c++/9/tuple:39[m[K,
+[10.801s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+[10.802s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[10.802s]                  from [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:2[m[K:
+[10.803s] [01m[K/usr/include/c++/9/array:94:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::array<float, 6>& std::array<float, 6>::operator=(const std::array<float, 6>&)[m[K’
+[10.803s]    94 |     struct [01;36m[Karray[m[K
+[10.803s]       |            [01;36m[K^~~~~[m[K
+[10.804s] [01m[K/usr/include/c++/9/array:94:12:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kconst std::array<float, 6>&[m[K’
+[10.804s] [01m[K/usr/include/c++/9/array:94:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::array<float, 6>& std::array<float, 6>::operator=(std::array<float, 6>&&)[m[K’
+[10.805s] [01m[K/usr/include/c++/9/array:94:12:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kstd::array<float, 6>&&[m[K’
+[16.284s] make[2]: *** [CMakeFiles/diablo_torquesubscriber.dir/build.make:63: CMakeFiles/diablo_torquesubscriber.dir/src/diablo_torque.cpp.o] Error 1
+[16.285s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/diablo_torquesubscriber.dir/all] Error 2
+[16.286s] make: *** [Makefile:141: all] Error 2
+[16.293s] Invoked command in '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk' returned '2': AMENT_PREFIX_PATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces:/home/diablo/diablo_ws/install/diablo_ctrl:/home/diablo/diablo_ws/install/diablo_body:/home/diablo/diablo_ws/install/diablo_utils:/home/diablo/diablo_ws/install/motion_msgs:/home/diablo/diablo_ws/install/ception_msgs:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy LD_LIBRARY_PATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/diablo/diablo_torqueHDRL/build/jointctrlsdk -- -j4 -l4

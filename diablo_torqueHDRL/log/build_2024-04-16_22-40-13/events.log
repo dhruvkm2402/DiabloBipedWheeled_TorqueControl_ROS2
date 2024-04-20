@@ -1,0 +1,334 @@
+[0.000000] (-) TimerEvent: {}
+[0.001367] (jointctrlsdk) JobQueued: {'identifier': 'jointctrlsdk', 'dependencies': OrderedDict()}
+[0.003194] (jointctrlsdk) JobStarted: {'identifier': 'jointctrlsdk'}
+[0.071108] (jointctrlsdk) JobProgress: {'identifier': 'jointctrlsdk', 'progress': 'cmake'}
+[0.075766] (jointctrlsdk) JobProgress: {'identifier': 'jointctrlsdk', 'progress': 'build'}
+[0.078825] (jointctrlsdk) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk', '--', '-j4', '-l4'], 'cwd': '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en_US'), ('USER', 'diablo'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1125'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/diablo/diablo_ws/install/diablo_body/lib:/home/diablo/diablo_ws/install/diablo_utils/lib:/home/diablo/diablo_ws/install/motion_msgs/lib:/home/diablo/diablo_ws/install/ception_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/diablo'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('COLCON_PREFIX_PATH', '/home/diablo/diablo_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'diablo'), ('WINDOWID', '44040199'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/diablo-desktop:@/tmp/.ICE-unix/994,unix/diablo-desktop:/tmp/.ICE-unix/994'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/diablo/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '5'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/diablo'), ('AMENT_PREFIX_PATH', '/home/diablo/diablo_ws/install/diablo_ctrl:/home/diablo/diablo_ws/install/diablo_body:/home/diablo/diablo_ws/install/diablo_utils:/home/diablo/diablo_ws/install/diablo_teleop:/home/diablo/diablo_ws/install/motion_msgs:/home/diablo/diablo_ws/install/ception_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('XDG_VTNR', '7'), ('PWD', '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/mate:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/diablo/diablo_ws/install/diablo_teleop/lib/python3.8/site-packages:/home/diablo/diablo_ws/install/motion_msgs/lib/python3.8/site-packages:/home/diablo/diablo_ws/install/ception_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/diablo/diablo_ws/install/diablo_ctrl:/home/diablo/diablo_ws/install/diablo_body:/home/diablo/diablo_ws/install/diablo_utils:/home/diablo/diablo_ws/install/motion_msgs:/home/diablo/diablo_ws/install/ception_msgs:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy')]), 'shell': False}
+[0.099902] (-) TimerEvent: {}
+[0.201253] (-) TimerEvent: {}
+[0.302040] (-) TimerEvent: {}
+[0.403070] (-) TimerEvent: {}
+[0.441422] (jointctrlsdk) StdoutLine: {'line': b'[ 66%] Built target jointctrlsdk_core\n'}
+[0.503268] (-) TimerEvent: {}
+[0.511291] (jointctrlsdk) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target diablo_torquesubscriber\x1b[0m\n'}
+[0.603944] (-) TimerEvent: {}
+[0.686911] (jointctrlsdk) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/diablo_torquesubscriber.dir/src/diablo_torque.cpp.o\x1b[0m\n'}
+[0.704208] (-) TimerEvent: {}
+[0.805157] (-) TimerEvent: {}
+[0.905915] (-) TimerEvent: {}
+[1.006901] (-) TimerEvent: {}
+[1.107915] (-) TimerEvent: {}
+[1.208869] (-) TimerEvent: {}
+[1.310723] (-) TimerEvent: {}
+[1.411687] (-) TimerEvent: {}
+[1.512658] (-) TimerEvent: {}
+[1.613537] (-) TimerEvent: {}
+[1.714597] (-) TimerEvent: {}
+[1.815546] (-) TimerEvent: {}
+[1.916483] (-) TimerEvent: {}
+[2.017387] (-) TimerEvent: {}
+[2.118344] (-) TimerEvent: {}
+[2.219404] (-) TimerEvent: {}
+[2.320534] (-) TimerEvent: {}
+[2.421610] (-) TimerEvent: {}
+[2.522631] (-) TimerEvent: {}
+[2.623606] (-) TimerEvent: {}
+[2.724581] (-) TimerEvent: {}
+[2.825885] (-) TimerEvent: {}
+[2.926800] (-) TimerEvent: {}
+[3.027767] (-) TimerEvent: {}
+[3.128618] (-) TimerEvent: {}
+[3.229449] (-) TimerEvent: {}
+[3.330403] (-) TimerEvent: {}
+[3.431302] (-) TimerEvent: {}
+[3.532183] (-) TimerEvent: {}
+[3.633078] (-) TimerEvent: {}
+[3.733904] (-) TimerEvent: {}
+[3.835420] (-) TimerEvent: {}
+[3.936779] (-) TimerEvent: {}
+[4.037579] (-) TimerEvent: {}
+[4.138367] (-) TimerEvent: {}
+[4.239144] (-) TimerEvent: {}
+[4.340039] (-) TimerEvent: {}
+[4.440925] (-) TimerEvent: {}
+[4.541812] (-) TimerEvent: {}
+[4.642605] (-) TimerEvent: {}
+[4.743372] (-) TimerEvent: {}
+[4.844298] (-) TimerEvent: {}
+[4.945154] (-) TimerEvent: {}
+[5.046005] (-) TimerEvent: {}
+[5.146929] (-) TimerEvent: {}
+[5.247682] (-) TimerEvent: {}
+[5.348574] (-) TimerEvent: {}
+[5.449605] (-) TimerEvent: {}
+[5.550820] (-) TimerEvent: {}
+[5.651675] (-) TimerEvent: {}
+[5.752487] (-) TimerEvent: {}
+[5.853310] (-) TimerEvent: {}
+[5.954120] (-) TimerEvent: {}
+[6.054991] (-) TimerEvent: {}
+[6.155827] (-) TimerEvent: {}
+[6.256710] (-) TimerEvent: {}
+[6.357657] (-) TimerEvent: {}
+[6.458781] (-) TimerEvent: {}
+[6.559569] (-) TimerEvent: {}
+[6.660447] (-) TimerEvent: {}
+[6.761339] (-) TimerEvent: {}
+[6.862156] (-) TimerEvent: {}
+[6.963057] (-) TimerEvent: {}
+[7.063883] (-) TimerEvent: {}
+[7.164739] (-) TimerEvent: {}
+[7.265579] (-) TimerEvent: {}
+[7.366423] (-) TimerEvent: {}
+[7.467205] (-) TimerEvent: {}
+[7.568029] (-) TimerEvent: {}
+[7.668968] (-) TimerEvent: {}
+[7.770343] (-) TimerEvent: {}
+[7.871572] (-) TimerEvent: {}
+[7.972795] (-) TimerEvent: {}
+[8.073978] (-) TimerEvent: {}
+[8.174788] (-) TimerEvent: {}
+[8.275691] (-) TimerEvent: {}
+[8.376822] (-) TimerEvent: {}
+[8.477856] (-) TimerEvent: {}
+[8.578659] (-) TimerEvent: {}
+[8.679570] (-) TimerEvent: {}
+[8.780788] (-) TimerEvent: {}
+[8.881600] (-) TimerEvent: {}
+[8.982404] (-) TimerEvent: {}
+[9.083212] (-) TimerEvent: {}
+[9.184017] (-) TimerEvent: {}
+[9.284858] (-) TimerEvent: {}
+[9.385654] (-) TimerEvent: {}
+[9.486447] (-) TimerEvent: {}
+[9.587490] (-) TimerEvent: {}
+[9.688455] (-) TimerEvent: {}
+[9.789378] (-) TimerEvent: {}
+[9.890321] (-) TimerEvent: {}
+[9.991181] (-) TimerEvent: {}
+[10.092066] (-) TimerEvent: {}
+[10.192948] (-) TimerEvent: {}
+[10.293735] (-) TimerEvent: {}
+[10.394624] (-) TimerEvent: {}
+[10.495570] (-) TimerEvent: {}
+[10.596404] (-) TimerEvent: {}
+[10.697200] (-) TimerEvent: {}
+[10.798001] (-) TimerEvent: {}
+[10.898801] (-) TimerEvent: {}
+[10.999663] (-) TimerEvent: {}
+[11.100520] (-) TimerEvent: {}
+[11.201334] (-) TimerEvent: {}
+[11.302153] (-) TimerEvent: {}
+[11.402967] (-) TimerEvent: {}
+[11.503853] (-) TimerEvent: {}
+[11.604747] (-) TimerEvent: {}
+[11.705567] (-) TimerEvent: {}
+[11.806380] (-) TimerEvent: {}
+[11.907290] (-) TimerEvent: {}
+[12.008240] (-) TimerEvent: {}
+[12.109066] (-) TimerEvent: {}
+[12.209862] (-) TimerEvent: {}
+[12.310727] (-) TimerEvent: {}
+[12.411524] (-) TimerEvent: {}
+[12.512356] (-) TimerEvent: {}
+[12.613153] (-) TimerEvent: {}
+[12.714059] (-) TimerEvent: {}
+[12.814848] (-) TimerEvent: {}
+[12.915653] (-) TimerEvent: {}
+[13.016457] (-) TimerEvent: {}
+[13.117290] (-) TimerEvent: {}
+[13.218149] (-) TimerEvent: {}
+[13.319084] (-) TimerEvent: {}
+[13.419917] (-) TimerEvent: {}
+[13.520747] (-) TimerEvent: {}
+[13.621545] (-) TimerEvent: {}
+[13.722360] (-) TimerEvent: {}
+[13.823367] (-) TimerEvent: {}
+[13.924302] (-) TimerEvent: {}
+[14.025170] (-) TimerEvent: {}
+[14.126050] (-) TimerEvent: {}
+[14.227030] (-) TimerEvent: {}
+[14.327953] (-) TimerEvent: {}
+[14.428845] (-) TimerEvent: {}
+[14.529693] (-) TimerEvent: {}
+[14.630614] (-) TimerEvent: {}
+[14.731679] (-) TimerEvent: {}
+[14.832625] (-) TimerEvent: {}
+[14.933498] (-) TimerEvent: {}
+[15.034384] (-) TimerEvent: {}
+[15.135169] (-) TimerEvent: {}
+[15.236258] (-) TimerEvent: {}
+[15.337715] (-) TimerEvent: {}
+[15.438648] (-) TimerEvent: {}
+[15.539490] (-) TimerEvent: {}
+[15.640508] (-) TimerEvent: {}
+[15.741622] (-) TimerEvent: {}
+[15.842871] (-) TimerEvent: {}
+[15.944757] (-) TimerEvent: {}
+[16.045643] (-) TimerEvent: {}
+[16.146565] (-) TimerEvent: {}
+[16.247500] (-) TimerEvent: {}
+[16.348641] (-) TimerEvent: {}
+[16.449740] (-) TimerEvent: {}
+[16.550595] (-) TimerEvent: {}
+[16.651441] (-) TimerEvent: {}
+[16.752287] (-) TimerEvent: {}
+[16.853121] (-) TimerEvent: {}
+[16.954032] (-) TimerEvent: {}
+[17.054849] (-) TimerEvent: {}
+[17.155694] (-) TimerEvent: {}
+[17.256529] (-) TimerEvent: {}
+[17.357384] (-) TimerEvent: {}
+[17.458187] (-) TimerEvent: {}
+[17.558977] (-) TimerEvent: {}
+[17.659755] (-) TimerEvent: {}
+[17.760618] (-) TimerEvent: {}
+[17.861396] (-) TimerEvent: {}
+[17.962182] (-) TimerEvent: {}
+[18.063008] (-) TimerEvent: {}
+[18.163896] (-) TimerEvent: {}
+[18.264799] (-) TimerEvent: {}
+[18.365673] (-) TimerEvent: {}
+[18.466744] (-) TimerEvent: {}
+[18.568025] (-) TimerEvent: {}
+[18.669054] (-) TimerEvent: {}
+[18.769995] (-) TimerEvent: {}
+[18.870989] (-) TimerEvent: {}
+[18.971896] (-) TimerEvent: {}
+[19.072915] (-) TimerEvent: {}
+[19.173801] (-) TimerEvent: {}
+[19.274658] (-) TimerEvent: {}
+[19.375536] (-) TimerEvent: {}
+[19.476468] (-) TimerEvent: {}
+[19.577413] (-) TimerEvent: {}
+[19.678319] (-) TimerEvent: {}
+[19.779156] (-) TimerEvent: {}
+[19.879996] (-) TimerEvent: {}
+[19.980948] (-) TimerEvent: {}
+[20.081919] (-) TimerEvent: {}
+[20.182746] (-) TimerEvent: {}
+[20.283697] (-) TimerEvent: {}
+[20.384638] (-) TimerEvent: {}
+[20.485512] (-) TimerEvent: {}
+[20.588592] (-) TimerEvent: {}
+[20.689712] (-) TimerEvent: {}
+[20.790768] (-) TimerEvent: {}
+[20.891761] (-) TimerEvent: {}
+[20.992823] (-) TimerEvent: {}
+[21.093793] (-) TimerEvent: {}
+[21.194700] (-) TimerEvent: {}
+[21.295667] (-) TimerEvent: {}
+[21.396623] (-) TimerEvent: {}
+[21.497505] (-) TimerEvent: {}
+[21.598530] (-) TimerEvent: {}
+[21.699604] (-) TimerEvent: {}
+[21.800620] (-) TimerEvent: {}
+[21.901577] (-) TimerEvent: {}
+[22.002537] (-) TimerEvent: {}
+[22.103627] (-) TimerEvent: {}
+[22.204661] (-) TimerEvent: {}
+[22.305723] (-) TimerEvent: {}
+[22.406678] (-) TimerEvent: {}
+[22.507603] (-) TimerEvent: {}
+[22.608637] (-) TimerEvent: {}
+[22.709662] (-) TimerEvent: {}
+[22.810497] (-) TimerEvent: {}
+[22.911573] (-) TimerEvent: {}
+[23.012563] (-) TimerEvent: {}
+[23.113461] (-) TimerEvent: {}
+[23.214432] (-) TimerEvent: {}
+[23.315303] (-) TimerEvent: {}
+[23.416601] (-) TimerEvent: {}
+[23.517545] (-) TimerEvent: {}
+[23.618541] (-) TimerEvent: {}
+[23.719474] (-) TimerEvent: {}
+[23.820556] (-) TimerEvent: {}
+[23.921444] (-) TimerEvent: {}
+[24.022416] (-) TimerEvent: {}
+[24.123425] (-) TimerEvent: {}
+[24.224483] (-) TimerEvent: {}
+[24.325421] (-) TimerEvent: {}
+[24.426333] (-) TimerEvent: {}
+[24.527392] (-) TimerEvent: {}
+[24.628554] (-) TimerEvent: {}
+[24.729488] (-) TimerEvent: {}
+[24.830458] (-) TimerEvent: {}
+[24.931726] (-) TimerEvent: {}
+[25.033408] (-) TimerEvent: {}
+[25.134889] (-) TimerEvent: {}
+[25.235912] (-) TimerEvent: {}
+[25.337194] (-) TimerEvent: {}
+[25.438364] (-) TimerEvent: {}
+[25.512571] (jointctrlsdk) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable diablo_torquesubscriber\x1b[0m\n'}
+[25.538620] (-) TimerEvent: {}
+[25.639725] (-) TimerEvent: {}
+[25.741009] (-) TimerEvent: {}
+[25.842315] (-) TimerEvent: {}
+[25.943755] (-) TimerEvent: {}
+[26.044969] (-) TimerEvent: {}
+[26.146479] (-) TimerEvent: {}
+[26.247783] (-) TimerEvent: {}
+[26.349082] (-) TimerEvent: {}
+[26.449997] (-) TimerEvent: {}
+[26.551562] (-) TimerEvent: {}
+[26.653108] (-) TimerEvent: {}
+[26.754089] (-) TimerEvent: {}
+[26.854986] (-) TimerEvent: {}
+[26.856060] (jointctrlsdk) StdoutLine: {'line': b'[100%] Built target diablo_torquesubscriber\n'}
+[26.911976] (jointctrlsdk) CommandEnded: {'returncode': 0}
+[26.955317] (-) TimerEvent: {}
+[27.056368] (-) TimerEvent: {}
+[27.127069] (jointctrlsdk) JobProgress: {'identifier': 'jointctrlsdk', 'progress': 'install'}
+[27.156686] (-) TimerEvent: {}
+[27.181241] (jointctrlsdk) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk'], 'cwd': '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en_US'), ('USER', 'diablo'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1125'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/diablo/diablo_ws/install/diablo_body/lib:/home/diablo/diablo_ws/install/diablo_utils/lib:/home/diablo/diablo_ws/install/motion_msgs/lib:/home/diablo/diablo_ws/install/ception_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/diablo'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('COLCON_PREFIX_PATH', '/home/diablo/diablo_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'diablo'), ('WINDOWID', '44040199'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/diablo-desktop:@/tmp/.ICE-unix/994,unix/diablo-desktop:/tmp/.ICE-unix/994'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/diablo/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '5'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/diablo'), ('AMENT_PREFIX_PATH', '/home/diablo/diablo_ws/install/diablo_ctrl:/home/diablo/diablo_ws/install/diablo_body:/home/diablo/diablo_ws/install/diablo_utils:/home/diablo/diablo_ws/install/diablo_teleop:/home/diablo/diablo_ws/install/motion_msgs:/home/diablo/diablo_ws/install/ception_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('XDG_VTNR', '7'), ('PWD', '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/mate:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/diablo/diablo_ws/install/diablo_teleop/lib/python3.8/site-packages:/home/diablo/diablo_ws/install/motion_msgs/lib/python3.8/site-packages:/home/diablo/diablo_ws/install/ception_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/diablo/diablo_ws/install/diablo_ctrl:/home/diablo/diablo_ws/install/diablo_body:/home/diablo/diablo_ws/install/diablo_utils:/home/diablo/diablo_ws/install/motion_msgs:/home/diablo/diablo_ws/install/ception_msgs:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy')]), 'shell': False}
+[27.239007] (jointctrlsdk) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[27.243262] (jointctrlsdk) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/include/\n'}
+[27.245031] (jointctrlsdk) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/include//jointctrlsdk\n'}
+[27.245758] (jointctrlsdk) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/include//joint_ctrl_protocol.h\n'}
+[27.246803] (jointctrlsdk) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/include//crc_verify.hpp\n'}
+[27.249290] (jointctrlsdk) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/include//VulcanSerial\n'}
+[27.250320] (jointctrlsdk) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/include//VulcanSerial/Exception.hpp\n'}
+[27.251078] (jointctrlsdk) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/include//VulcanSerial/SerialPort.hpp\n'}
+[27.252251] (jointctrlsdk) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/include//diablo_tctrl.hpp\n'}
+[27.253490] (jointctrlsdk) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/include//serial_handle.hpp\n'}
+[27.254413] (jointctrlsdk) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/lib/libjointctrlsdk_core.so\n'}
+[27.255184] (jointctrlsdk) StdoutLine: {'line': b'-- Installing: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/lib/jointctrlsdk/diablo_torquesubscriber\n'}
+[27.256917] (-) TimerEvent: {}
+[27.272718] (jointctrlsdk) StdoutLine: {'line': b'-- Set runtime path of "/home/diablo/diablo_torqueHDRL/install/jointctrlsdk/lib/jointctrlsdk/diablo_torquesubscriber" to ""\n'}
+[27.273852] (jointctrlsdk) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/include/jointctrlsdk\n'}
+[27.274584] (jointctrlsdk) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/include/jointctrlsdk/jointctrlsdk\n'}
+[27.275510] (jointctrlsdk) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/include/jointctrlsdk/joint_ctrl_protocol.h\n'}
+[27.277873] (jointctrlsdk) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/include/jointctrlsdk/crc_verify.hpp\n'}
+[27.279835] (jointctrlsdk) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/include/jointctrlsdk/VulcanSerial\n'}
+[27.281442] (jointctrlsdk) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/include/jointctrlsdk/VulcanSerial/Exception.hpp\n'}
+[27.282826] (jointctrlsdk) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/include/jointctrlsdk/VulcanSerial/SerialPort.hpp\n'}
+[27.283544] (jointctrlsdk) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/include/jointctrlsdk/diablo_tctrl.hpp\n'}
+[27.284652] (jointctrlsdk) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/include/jointctrlsdk/serial_handle.hpp\n'}
+[27.285547] (jointctrlsdk) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/lib/libjointctrlsdk_core.so\n'}
+[27.286512] (jointctrlsdk) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/environment/library_path.sh\n'}
+[27.289235] (jointctrlsdk) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/environment/library_path.dsv\n'}
+[27.290976] (jointctrlsdk) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/ament_index/resource_index/package_run_dependencies/jointctrlsdk\n'}
+[27.291644] (jointctrlsdk) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/ament_index/resource_index/parent_prefix_path/jointctrlsdk\n'}
+[27.292560] (jointctrlsdk) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/environment/ament_prefix_path.sh\n'}
+[27.293298] (jointctrlsdk) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/environment/ament_prefix_path.dsv\n'}
+[27.294107] (jointctrlsdk) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/environment/path.sh\n'}
+[27.294957] (jointctrlsdk) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/environment/path.dsv\n'}
+[27.295693] (jointctrlsdk) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/local_setup.bash\n'}
+[27.297143] (jointctrlsdk) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/local_setup.sh\n'}
+[27.299025] (jointctrlsdk) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/local_setup.zsh\n'}
+[27.299899] (jointctrlsdk) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/local_setup.dsv\n'}
+[27.301038] (jointctrlsdk) StdoutLine: {'line': b'-- Installing: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/package.dsv\n'}
+[27.302315] (jointctrlsdk) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/ament_index/resource_index/packages/jointctrlsdk\n'}
+[27.303167] (jointctrlsdk) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[27.303925] (jointctrlsdk) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[27.304754] (jointctrlsdk) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[27.307322] (jointctrlsdk) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/cmake/jointctrlsdkConfig.cmake\n'}
+[27.308333] (jointctrlsdk) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/cmake/jointctrlsdkConfig-version.cmake\n'}
+[27.309222] (jointctrlsdk) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/package.xml\n'}
+[27.309955] (jointctrlsdk) CommandEnded: {'returncode': 0}
+[27.357178] (-) TimerEvent: {}
+[27.461030] (-) TimerEvent: {}
+[27.562165] (-) TimerEvent: {}
+[27.663204] (-) TimerEvent: {}
+[27.665771] (jointctrlsdk) JobEnded: {'identifier': 'jointctrlsdk', 'rc': 0}
+[27.671045] (-) EventReactorShutdown: {}

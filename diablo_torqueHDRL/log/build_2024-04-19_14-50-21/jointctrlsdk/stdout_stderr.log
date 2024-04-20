@@ -1,0 +1,13 @@
+[ 66%] Built target jointctrlsdk_core
+[35m[1mScanning dependencies of target diablo_torquesubscriber[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/diablo_torquesubscriber.dir/src/diablo_torque.cpp.o[0m
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:68:13:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kint counter[m[K’
+   68 |         int [01;31m[Kcounter[m[K = 10;
+      |             [01;31m[K^~~~~~~[m[K
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:50:14:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kuint32_t counter[m[K’
+   50 |     uint32_t [01;36m[Kcounter[m[K = 0;
+      |              [01;36m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/diablo_torquesubscriber.dir/build.make:63: CMakeFiles/diablo_torquesubscriber.dir/src/diablo_torque.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/diablo_torquesubscriber.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

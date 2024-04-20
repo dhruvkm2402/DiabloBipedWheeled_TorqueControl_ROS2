@@ -1,0 +1,4 @@
+source;share/torque_interfaces/local_setup.bash
+source;share/torque_interfaces/local_setup.dsv
+source;share/torque_interfaces/local_setup.sh
+source;share/torque_interfaces/local_setup.zsh

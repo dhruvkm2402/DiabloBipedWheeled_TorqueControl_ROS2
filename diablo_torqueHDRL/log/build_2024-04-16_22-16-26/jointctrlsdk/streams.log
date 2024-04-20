@@ -1,0 +1,287 @@
+[0.074s] Invoking command in '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/diablo/diablo_torqueHDRL/build/jointctrlsdk -- -j4 -l4
+[0.422s] [ 66%] Built target jointctrlsdk_core
+[0.489s] [35m[1mScanning dependencies of target diablo_torquesubscriber[0m
+[0.655s] [ 83%] [32mBuilding CXX object CMakeFiles/diablo_torquesubscriber.dir/src/diablo_torque.cpp.o[0m
+[2.696s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:5:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::placeholders[m[K’ has not been declared
+[2.696s]     5 | using std::[01;31m[Kplaceholders[m[K::_1;
+[2.697s]       |            [01;31m[K^~~~~~~~~~~~[m[K
+[6.749s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[6.751s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:63:43:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator<<[m[K’ (operand types are ‘[01m[Kstd::basic_ostream<char>[m[K’ and ‘[01m[Kconst std::array<float, 6>[m[K’)
+[6.754s]    63 |         [32m[Kstd::cout << "Torque Values are:"[m[K [01;31m[K<<[m[K [34m[Ktorque_values2[m[K;
+[6.756s]       |         [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K [01;31m[K^~[m[K [34m[K~~~~~~~~~~~~~~[m[K
+[6.757s]       |                   [32m[K|[m[K                          [34m[K|[m[K
+[6.757s]       |                   [32m[Kstd::basic_ostream<char>[m[K   [34m[Kconst std::array<float, 6>[m[K
+[6.758s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[6.758s]                  from [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:1[m[K:
+[6.759s] [01m[K/usr/include/c++/9/ostream:108:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[6.759s]   108 |       [01;36m[Koperator[m[K<<(__ostream_type& (*__pf)(__ostream_type&))
+[6.759s]       |       [01;36m[K^~~~~~~~[m[K
+[6.760s] [01m[K/usr/include/c++/9/ostream:108:36:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::array<float, 6>[m[K’ to ‘[01m[Kstd::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&)[m[K’ {aka ‘[01m[Kstd::basic_ostream<char>& (*)(std::basic_ostream<char>&)[m[K’}
+[6.760s]   108 |       operator<<([01;36m[K__ostream_type& (*__pf)(__ostream_type&)[m[K)
+[6.761s]       |                  [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.761s] [01m[K/usr/include/c++/9/ostream:117:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>][m[K’
+[6.762s]   117 |       [01;36m[Koperator[m[K<<(__ios_type& (*__pf)(__ios_type&))
+[6.762s]       |       [01;36m[K^~~~~~~~[m[K
+[6.763s] [01m[K/usr/include/c++/9/ostream:117:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::array<float, 6>[m[K’ to ‘[01m[Kstd::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&)[m[K’ {aka ‘[01m[Kstd::basic_ios<char>& (*)(std::basic_ios<char>&)[m[K’}
+[6.763s]   117 |       operator<<([01;36m[K__ios_type& (*__pf)(__ios_type&)[m[K)
+[6.764s]       |                  [01;36m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[6.764s] [01m[K/usr/include/c++/9/ostream:127:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[6.765s]   127 |       [01;36m[Koperator[m[K<<(ios_base& (*__pf) (ios_base&))
+[6.765s]       |       [01;36m[K^~~~~~~~[m[K
+[6.766s] [01m[K/usr/include/c++/9/ostream:127:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::array<float, 6>[m[K’ to ‘[01m[Kstd::ios_base& (*)(std::ios_base&)[m[K’
+[6.767s]   127 |       operator<<([01;36m[Kios_base& (*__pf) (ios_base&)[m[K)
+[6.767s]       |                  [01;36m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[6.767s] [01m[K/usr/include/c++/9/ostream:166:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[6.768s]   166 |       [01;36m[Koperator[m[K<<(long __n)
+[6.768s]       |       [01;36m[K^~~~~~~~[m[K
+[6.769s] [01m[K/usr/include/c++/9/ostream:166:23:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::array<float, 6>[m[K’ to ‘[01m[Klong int[m[K’
+[6.770s]   166 |       operator<<([01;36m[Klong __n[m[K)
+[6.770s]       |                  [01;36m[K~~~~~^~~[m[K
+[6.771s] [01m[K/usr/include/c++/9/ostream:170:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[6.771s]   170 |       [01;36m[Koperator[m[K<<(unsigned long __n)
+[6.771s]       |       [01;36m[K^~~~~~~~[m[K
+[6.772s] [01m[K/usr/include/c++/9/ostream:170:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::array<float, 6>[m[K’ to ‘[01m[Klong unsigned int[m[K’
+[6.772s]   170 |       operator<<([01;36m[Kunsigned long __n[m[K)
+[6.773s]       |                  [01;36m[K~~~~~~~~~~~~~~^~~[m[K
+[6.773s] [01m[K/usr/include/c++/9/ostream:174:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[6.774s]   174 |       [01;36m[Koperator[m[K<<(bool __n)
+[6.774s]       |       [01;36m[K^~~~~~~~[m[K
+[6.774s] [01m[K/usr/include/c++/9/ostream:174:23:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::array<float, 6>[m[K’ to ‘[01m[Kbool[m[K’
+[6.775s]   174 |       operator<<([01;36m[Kbool __n[m[K)
+[6.775s]       |                  [01;36m[K~~~~~^~~[m[K
+[6.776s] In file included from [01m[K/usr/include/c++/9/ostream:702[m[K,
+[6.777s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[6.777s]                  from [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:1[m[K:
+[6.778s] [01m[K/usr/include/c++/9/bits/ostream.tcc:91:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>][m[K’
+[6.778s]    91 |     [01;36m[Kbasic_ostream<_CharT, _Traits>[m[K::
+[6.779s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.780s] [01m[K/usr/include/c++/9/bits/ostream.tcc:92:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::array<float, 6>[m[K’ to ‘[01m[Kshort int[m[K’
+[6.781s]    92 |     operator<<([01;36m[Kshort __n[m[K)
+[6.781s]       |                [01;36m[K~~~~~~^~~[m[K
+[6.782s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[6.782s]                  from [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:1[m[K:
+[6.782s] [01m[K/usr/include/c++/9/ostream:181:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[6.783s]   181 |       [01;36m[Koperator[m[K<<(unsigned short __n)
+[6.783s]       |       [01;36m[K^~~~~~~~[m[K
+[6.784s] [01m[K/usr/include/c++/9/ostream:181:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::array<float, 6>[m[K’ to ‘[01m[Kshort unsigned int[m[K’
+[6.784s]   181 |       operator<<([01;36m[Kunsigned short __n[m[K)
+[6.785s]       |                  [01;36m[K~~~~~~~~~~~~~~~^~~[m[K
+[6.785s] In file included from [01m[K/usr/include/c++/9/ostream:702[m[K,
+[6.785s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[6.786s]                  from [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:1[m[K:
+[6.786s] [01m[K/usr/include/c++/9/bits/ostream.tcc:105:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>][m[K’
+[6.787s]   105 |     [01;36m[Kbasic_ostream<_CharT, _Traits>[m[K::
+[6.787s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.788s] [01m[K/usr/include/c++/9/bits/ostream.tcc:106:20:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::array<float, 6>[m[K’ to ‘[01m[Kint[m[K’
+[6.788s]   106 |     operator<<([01;36m[Kint __n[m[K)
+[6.788s]       |                [01;36m[K~~~~^~~[m[K
+[6.789s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[6.789s]                  from [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:1[m[K:
+[6.790s] [01m[K/usr/include/c++/9/ostream:192:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[6.790s]   192 |       [01;36m[Koperator[m[K<<(unsigned int __n)
+[6.791s]       |       [01;36m[K^~~~~~~~[m[K
+[6.791s] [01m[K/usr/include/c++/9/ostream:192:31:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::array<float, 6>[m[K’ to ‘[01m[Kunsigned int[m[K’
+[6.791s]   192 |       operator<<([01;36m[Kunsigned int __n[m[K)
+[6.792s]       |                  [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[6.792s] [01m[K/usr/include/c++/9/ostream:201:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[6.793s]   201 |       [01;36m[Koperator[m[K<<(long long __n)
+[6.793s]       |       [01;36m[K^~~~~~~~[m[K
+[6.794s] [01m[K/usr/include/c++/9/ostream:201:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::array<float, 6>[m[K’ to ‘[01m[Klong long int[m[K’
+[6.794s]   201 |       operator<<([01;36m[Klong long __n[m[K)
+[6.795s]       |                  [01;36m[K~~~~~~~~~~^~~[m[K
+[6.795s] [01m[K/usr/include/c++/9/ostream:205:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[6.795s]   205 |       [01;36m[Koperator[m[K<<(unsigned long long __n)
+[6.796s]       |       [01;36m[K^~~~~~~~[m[K
+[6.796s] [01m[K/usr/include/c++/9/ostream:205:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::array<float, 6>[m[K’ to ‘[01m[Klong long unsigned int[m[K’
+[6.797s]   205 |       operator<<([01;36m[Kunsigned long long __n[m[K)
+[6.797s]       |                  [01;36m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+[6.798s] [01m[K/usr/include/c++/9/ostream:220:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[6.798s]   220 |       [01;36m[Koperator[m[K<<(double __f)
+[6.799s]       |       [01;36m[K^~~~~~~~[m[K
+[6.799s] [01m[K/usr/include/c++/9/ostream:220:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::array<float, 6>[m[K’ to ‘[01m[Kdouble[m[K’
+[6.799s]   220 |       operator<<([01;36m[Kdouble __f[m[K)
+[6.800s]       |                  [01;36m[K~~~~~~~^~~[m[K
+[6.800s] [01m[K/usr/include/c++/9/ostream:224:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[6.801s]   224 |       [01;36m[Koperator[m[K<<(float __f)
+[6.801s]       |       [01;36m[K^~~~~~~~[m[K
+[6.802s] [01m[K/usr/include/c++/9/ostream:224:24:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::array<float, 6>[m[K’ to ‘[01m[Kfloat[m[K’
+[6.802s]   224 |       operator<<([01;36m[Kfloat __f[m[K)
+[6.802s]       |                  [01;36m[K~~~~~~^~~[m[K
+[6.803s] [01m[K/usr/include/c++/9/ostream:232:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[6.803s]   232 |       [01;36m[Koperator[m[K<<(long double __f)
+[6.804s]       |       [01;36m[K^~~~~~~~[m[K
+[6.804s] [01m[K/usr/include/c++/9/ostream:232:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::array<float, 6>[m[K’ to ‘[01m[Klong double[m[K’
+[6.804s]   232 |       operator<<([01;36m[Klong double __f[m[K)
+[6.805s]       |                  [01;36m[K~~~~~~~~~~~~^~~[m[K
+[6.805s] [01m[K/usr/include/c++/9/ostream:245:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[6.806s]   245 |       [01;36m[Koperator[m[K<<(const void* __p)
+[6.806s]       |       [01;36m[K^~~~~~~~[m[K
+[6.807s] [01m[K/usr/include/c++/9/ostream:245:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::array<float, 6>[m[K’ to ‘[01m[Kconst void*[m[K’
+[6.807s]   245 |       operator<<([01;36m[Kconst void* __p[m[K)
+[6.808s]       |                  [01;36m[K~~~~~~~~~~~~^~~[m[K
+[6.808s] In file included from [01m[K/usr/include/c++/9/ostream:702[m[K,
+[6.808s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[6.809s]                  from [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:1[m[K:
+[6.809s] [01m[K/usr/include/c++/9/bits/ostream.tcc:119:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>][m[K’
+[6.810s]   119 |     [01;36m[Kbasic_ostream<_CharT, _Traits>[m[K::
+[6.810s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.811s] [01m[K/usr/include/c++/9/bits/ostream.tcc:120:34:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::array<float, 6>[m[K’ to ‘[01m[Kstd::basic_ostream<char>::__streambuf_type*[m[K’ {aka ‘[01m[Kstd::basic_streambuf<char>*[m[K’}
+[6.811s]   120 |     operator<<([01;36m[K__streambuf_type* __sbin[m[K)
+[6.811s]       |                [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[6.812s] In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+[6.812s]                  from [01m[K/usr/include/c++/9/bits/locale_classes.h:40[m[K,
+[6.813s]                  from [01m[K/usr/include/c++/9/bits/ios_base.h:41[m[K,
+[6.813s]                  from [01m[K/usr/include/c++/9/ios:42[m[K,
+[6.814s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[6.814s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[6.814s]                  from [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:1[m[K:
+[6.815s] [01m[K/usr/include/c++/9/bits/basic_string.h:6419:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)[m[K’
+[6.815s]  6419 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os,
+[6.816s]       |     [01;36m[K^~~~~~~~[m[K
+[6.816s] [01m[K/usr/include/c++/9/bits/basic_string.h:6419:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.817s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:63:46:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std::array<float, 6>[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Alloc>[m[K’
+[6.817s]    63 |         std::cout << "Torque Values are:" << [01;36m[Ktorque_values2[m[K;
+[6.817s]       |                                              [01;36m[K^~~~~~~~~~~~~~[m[K
+[6.818s] In file included from [01m[K/usr/include/c++/9/bits/ios_base.h:46[m[K,
+[6.818s]                  from [01m[K/usr/include/c++/9/ios:42[m[K,
+[6.819s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[6.819s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[6.819s]                  from [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:1[m[K:
+[6.820s] [01m[K/usr/include/c++/9/system_error:217:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)[m[K’
+[6.820s]   217 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+[6.821s]       |     [01;36m[K^~~~~~~~[m[K
+[6.821s] [01m[K/usr/include/c++/9/system_error:217:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.822s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:63:46:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Ktorque_values2[m[K’ (type ‘[01m[Kconst std::array<float, 6>[m[K’) to type ‘[01m[Kconst std::error_code&[m[K’
+[6.822s]    63 |         std::cout << "Torque Values are:" << [01;36m[Ktorque_values2[m[K;
+[6.823s]       |                                              [01;36m[K^~~~~~~~~~~~~~[m[K
+[6.823s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[6.824s]                  from [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:1[m[K:
+[6.824s] [01m[K/usr/include/c++/9/ostream:506:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)[m[K’
+[6.824s]   506 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+[6.825s]       |     [01;36m[K^~~~~~~~[m[K
+[6.825s] [01m[K/usr/include/c++/9/ostream:506:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.826s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:63:46:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[K_CharT[m[K’ (‘[01m[Kchar[m[K’ and ‘[01m[Kstd::array<float, 6>[m[K’)
+[6.826s]    63 |         std::cout << "Torque Values are:" << [01;36m[Ktorque_values2[m[K;
+[6.827s]       |                                              [01;36m[K^~~~~~~~~~~~~~[m[K
+[6.827s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[6.828s]                  from [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:1[m[K:
+[6.828s] [01m[K/usr/include/c++/9/ostream:511:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)[m[K’
+[6.828s]   511 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+[6.829s]       |     [01;36m[K^~~~~~~~[m[K
+[6.829s] [01m[K/usr/include/c++/9/ostream:511:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.830s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:63:46:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Ktorque_values2[m[K’ (type ‘[01m[Kconst std::array<float, 6>[m[K’) to type ‘[01m[Kchar[m[K’
+[6.830s]    63 |         std::cout << "Torque Values are:" << [01;36m[Ktorque_values2[m[K;
+[6.831s]       |                                              [01;36m[K^~~~~~~~~~~~~~[m[K
+[6.831s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[6.831s]                  from [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:1[m[K:
+[6.832s] [01m[K/usr/include/c++/9/ostream:517:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)[m[K’
+[6.832s]   517 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, char __c)
+[6.833s]       |     [01;36m[K^~~~~~~~[m[K
+[6.833s] [01m[K/usr/include/c++/9/ostream:517:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.833s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:63:46:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Ktorque_values2[m[K’ (type ‘[01m[Kconst std::array<float, 6>[m[K’) to type ‘[01m[Kchar[m[K’
+[6.834s]    63 |         std::cout << "Torque Values are:" << [01;36m[Ktorque_values2[m[K;
+[6.834s]       |                                              [01;36m[K^~~~~~~~~~~~~~[m[K
+[6.835s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[6.835s]                  from [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:1[m[K:
+[6.836s] [01m[K/usr/include/c++/9/ostream:523:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)[m[K’
+[6.836s]   523 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, signed char __c)
+[6.837s]       |     [01;36m[K^~~~~~~~[m[K
+[6.837s] [01m[K/usr/include/c++/9/ostream:523:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.838s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:63:46:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Ktorque_values2[m[K’ (type ‘[01m[Kconst std::array<float, 6>[m[K’) to type ‘[01m[Ksigned char[m[K’
+[6.838s]    63 |         std::cout << "Torque Values are:" << [01;36m[Ktorque_values2[m[K;
+[6.838s]       |                                              [01;36m[K^~~~~~~~~~~~~~[m[K
+[6.839s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[6.839s]                  from [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:1[m[K:
+[6.840s] [01m[K/usr/include/c++/9/ostream:528:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)[m[K’
+[6.840s]   528 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+[6.840s]       |     [01;36m[K^~~~~~~~[m[K
+[6.841s] [01m[K/usr/include/c++/9/ostream:528:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.841s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:63:46:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Ktorque_values2[m[K’ (type ‘[01m[Kconst std::array<float, 6>[m[K’) to type ‘[01m[Kunsigned char[m[K’
+[6.842s]    63 |         std::cout << "Torque Values are:" << [01;36m[Ktorque_values2[m[K;
+[6.842s]       |                                              [01;36m[K^~~~~~~~~~~~~~[m[K
+[6.843s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[6.843s]                  from [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:1[m[K:
+[6.844s] [01m[K/usr/include/c++/9/ostream:548:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)[m[K’
+[6.844s]   548 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+[6.845s]       |     [01;36m[K^~~~~~~~[m[K
+[6.845s] [01m[K/usr/include/c++/9/ostream:548:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.846s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:63:46:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kstd::array<float, 6>[m[K’
+[6.846s]    63 |         std::cout << "Torque Values are:" << [01;36m[Ktorque_values2[m[K;
+[6.847s]       |                                              [01;36m[K^~~~~~~~~~~~~~[m[K
+[6.847s] In file included from [01m[K/usr/include/c++/9/ostream:702[m[K,
+[6.847s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[6.848s]                  from [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:1[m[K:
+[6.848s] [01m[K/usr/include/c++/9/bits/ostream.tcc:321:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)[m[K’
+[6.849s]   321 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+[6.849s]       |     [01;36m[K^~~~~~~~[m[K
+[6.850s] [01m[K/usr/include/c++/9/bits/ostream.tcc:321:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.850s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:63:46:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Ktorque_values2[m[K’ (type ‘[01m[Kconst std::array<float, 6>[m[K’) to type ‘[01m[Kconst char*[m[K’
+[6.850s]    63 |         std::cout << "Torque Values are:" << [01;36m[Ktorque_values2[m[K;
+[6.851s]       |                                              [01;36m[K^~~~~~~~~~~~~~[m[K
+[6.851s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[6.852s]                  from [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:1[m[K:
+[6.853s] [01m[K/usr/include/c++/9/ostream:565:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)[m[K’
+[6.853s]   565 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, const char* __s)
+[6.854s]       |     [01;36m[K^~~~~~~~[m[K
+[6.854s] [01m[K/usr/include/c++/9/ostream:565:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.854s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:63:46:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Ktorque_values2[m[K’ (type ‘[01m[Kconst std::array<float, 6>[m[K’) to type ‘[01m[Kconst char*[m[K’
+[6.855s]    63 |         std::cout << "Torque Values are:" << [01;36m[Ktorque_values2[m[K;
+[6.855s]       |                                              [01;36m[K^~~~~~~~~~~~~~[m[K
+[6.856s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[6.856s]                  from [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:1[m[K:
+[6.857s] [01m[K/usr/include/c++/9/ostream:578:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)[m[K’
+[6.857s]   578 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+[6.858s]       |     [01;36m[K^~~~~~~~[m[K
+[6.858s] [01m[K/usr/include/c++/9/ostream:578:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.858s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:63:46:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Ktorque_values2[m[K’ (type ‘[01m[Kconst std::array<float, 6>[m[K’) to type ‘[01m[Kconst signed char*[m[K’
+[6.859s]    63 |         std::cout << "Torque Values are:" << [01;36m[Ktorque_values2[m[K;
+[6.859s]       |                                              [01;36m[K^~~~~~~~~~~~~~[m[K
+[6.860s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[6.860s]                  from [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:1[m[K:
+[6.861s] [01m[K/usr/include/c++/9/ostream:583:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)[m[K’
+[6.861s]   583 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+[6.862s]       |     [01;36m[K^~~~~~~~[m[K
+[6.862s] [01m[K/usr/include/c++/9/ostream:583:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.862s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:63:46:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Ktorque_values2[m[K’ (type ‘[01m[Kconst std::array<float, 6>[m[K’) to type ‘[01m[Kconst unsigned char*[m[K’
+[6.863s]    63 |         std::cout << "Torque Values are:" << [01;36m[Ktorque_values2[m[K;
+[6.863s]       |                                              [01;36m[K^~~~~~~~~~~~~~[m[K
+[6.864s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[6.864s]                  from [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:1[m[K:
+[6.865s] [01m[K/usr/include/c++/9/ostream:691:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&)[m[K’
+[6.865s]   691 |     [01;36m[Koperator[m[K<<(_Ostream&& __os, const _Tp& __x)
+[6.866s]       |     [01;36m[K^~~~~~~~[m[K
+[6.866s] [01m[K/usr/include/c++/9/ostream:691:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.867s] /usr/include/c++/9/ostream: In substitution of ‘[01m[Ktemplate<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&) [with _Ostream = std::basic_ostream<char>&; _Tp = std::array<float, 6>][m[K’:
+[6.867s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:63:46:[m[K   required from here
+[6.867s] [01m[K/usr/include/c++/9/ostream:691:5:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::basic_ostream<char>&>[m[K’
+[6.868s] In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+[6.868s]                  from [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:2[m[K:
+[6.869s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:66:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Ch, class _Tr, class _Tp, __gnu_cxx::_Lock_policy _Lp> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__shared_ptr<_Tp, _Lp>&)[m[K’
+[6.869s]    66 |     [01;36m[Koperator[m[K<<(std::basic_ostream<_Ch, _Tr>& __os,
+[6.870s]       |     [01;36m[K^~~~~~~~[m[K
+[6.870s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:66:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.871s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:63:46:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std::array<float, 6>[m[K’ is not derived from ‘[01m[Kconst std::__shared_ptr<_Tp, _Lp>[m[K’
+[6.871s]    63 |         std::cout << "Torque Values are:" << [01;36m[Ktorque_values2[m[K;
+[6.872s]       |                                              [01;36m[K^~~~~~~~~~~~~~[m[K
+[6.872s] In file included from [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/include/serial_handle.hpp:4[m[K,
+[6.872s]                  from [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:4[m[K:
+[6.873s] [01m[K/usr/include/c++/9/thread:322:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::thread::id)[m[K’
+[6.873s]   322 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, thread::id __id)
+[6.874s]       |     [01;36m[K^~~~~~~~[m[K
+[6.874s] [01m[K/usr/include/c++/9/thread:322:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.875s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:63:46:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Ktorque_values2[m[K’ (type ‘[01m[Kconst std::array<float, 6>[m[K’) to type ‘[01m[Kstd::thread::id[m[K’
+[6.875s]    63 |         std::cout << "Torque Values are:" << [01;36m[Ktorque_values2[m[K;
+[6.876s]       |                                              [01;36m[K^~~~~~~~~~~~~~[m[K
+[6.876s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:64:31:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst std::array<float, 6>[m[K’ to ‘[01m[K_Float32*[m[K’ {aka ‘[01m[Kfloat*[m[K’}
+[6.876s]    64 |         handle.create_package([01;31m[Ktorque_values2[m[K, send_struct);
+[6.877s]       |                               [01;31m[K^~~~~~~~~~~~~~[m[K
+[6.877s]       |                               [01;31m[K|[m[K
+[6.878s]       |                               [01;31m[Kconst std::array<float, 6>[m[K
+[6.878s] In file included from [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:4[m[K:
+[6.879s] [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/include/serial_handle.hpp:35:35:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid SerialHandle::create_package(_Float32*, motor_torque_t&)[m[K’
+[6.880s]    35 |     void create_package([01;36m[K_Float32* motor_tor[m[K,motor_torque_t &motor_package);
+[6.880s]       |                         [01;36m[K~~~~~~~~~~^~~~~~~~~[m[K
+[12.754s] make[2]: *** [CMakeFiles/diablo_torquesubscriber.dir/build.make:63: CMakeFiles/diablo_torquesubscriber.dir/src/diablo_torque.cpp.o] Error 1
+[12.754s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/diablo_torquesubscriber.dir/all] Error 2
+[12.755s] make: *** [Makefile:141: all] Error 2
+[12.762s] Invoked command in '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/diablo/diablo_torqueHDRL/build/jointctrlsdk -- -j4 -l4

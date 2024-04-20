@@ -1,0 +1,4 @@
+source;share/jointctrlsdk/local_setup.bash
+source;share/jointctrlsdk/local_setup.dsv
+source;share/jointctrlsdk/local_setup.sh
+source;share/jointctrlsdk/local_setup.zsh

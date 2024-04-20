@@ -1,0 +1,160 @@
+[0.858s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'jointctrlsdk']
+[0.858s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff93f20610>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['jointctrlsdk'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff93f20610>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff93f20b50>)
+[1.039s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.039s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.039s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.040s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.040s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.040s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.040s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/diablo/diablo_torqueHDRL'
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/jointctrlsdk) by extensions ['ignore', 'ignore_ament_install']
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/jointctrlsdk) by extension 'ignore'
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/jointctrlsdk) by extension 'ignore_ament_install'
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/jointctrlsdk) by extensions ['colcon_pkg']
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/jointctrlsdk) by extension 'colcon_pkg'
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/jointctrlsdk) by extensions ['colcon_meta']
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/jointctrlsdk) by extension 'colcon_meta'
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/jointctrlsdk) by extensions ['ros']
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/jointctrlsdk) by extension 'ros'
+[1.140s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jointctrlsdk' with type 'ros.ament_cmake' and name 'jointctrlsdk'
+[1.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/torque_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/torque_interfaces) by extension 'ignore'
+[1.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/torque_interfaces) by extension 'ignore_ament_install'
+[1.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/torque_interfaces) by extensions ['colcon_pkg']
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/torque_interfaces) by extension 'colcon_pkg'
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/torque_interfaces) by extensions ['colcon_meta']
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/torque_interfaces) by extension 'colcon_meta'
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/torque_interfaces) by extensions ['ros']
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/torque_interfaces) by extension 'ros'
+[1.145s] DEBUG:colcon.colcon_core.package_identification:Package 'src/torque_interfaces' with type 'ros.ament_cmake' and name 'torque_interfaces'
+[1.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.241s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'torque_interfaces' in 'src/torque_interfaces'
+[1.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.264s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/diablo/diablo_ws/install
+[1.274s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 258 installed packages in /opt/ros/foxy
+[1.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.726s] Level 5:colcon.colcon_core.verb:set package 'jointctrlsdk' build argument 'cmake_args' from command line to 'None'
+[1.727s] Level 5:colcon.colcon_core.verb:set package 'jointctrlsdk' build argument 'cmake_target' from command line to 'None'
+[1.727s] Level 5:colcon.colcon_core.verb:set package 'jointctrlsdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.727s] Level 5:colcon.colcon_core.verb:set package 'jointctrlsdk' build argument 'cmake_clean_cache' from command line to 'False'
+[1.727s] Level 5:colcon.colcon_core.verb:set package 'jointctrlsdk' build argument 'cmake_clean_first' from command line to 'False'
+[1.727s] Level 5:colcon.colcon_core.verb:set package 'jointctrlsdk' build argument 'cmake_force_configure' from command line to 'False'
+[1.727s] Level 5:colcon.colcon_core.verb:set package 'jointctrlsdk' build argument 'ament_cmake_args' from command line to 'None'
+[1.727s] Level 5:colcon.colcon_core.verb:set package 'jointctrlsdk' build argument 'catkin_cmake_args' from command line to 'None'
+[1.728s] Level 5:colcon.colcon_core.verb:set package 'jointctrlsdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.728s] DEBUG:colcon.colcon_core.verb:Building package 'jointctrlsdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/diablo/diablo_torqueHDRL/install/jointctrlsdk', 'merge_install': False, 'path': '/home/diablo/diablo_torqueHDRL/src/jointctrlsdk', 'symlink_install': False, 'test_result_base': None}
+[1.729s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.737s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.738s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/diablo/diablo_torqueHDRL/src/jointctrlsdk' with build type 'ament_cmake'
+[1.739s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/diablo/diablo_torqueHDRL/src/jointctrlsdk'
+[1.768s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.769s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.769s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.854s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk': AMENT_PREFIX_PATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces:/home/diablo/diablo_ws/install/diablo_ctrl:/home/diablo/diablo_ws/install/diablo_body:/home/diablo/diablo_ws/install/diablo_utils:/home/diablo/diablo_ws/install/motion_msgs:/home/diablo/diablo_ws/install/ception_msgs:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy LD_LIBRARY_PATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/diablo/diablo_torqueHDRL/build/jointctrlsdk -- -j4 -l4
+[25.279s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk' returned '0': AMENT_PREFIX_PATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces:/home/diablo/diablo_ws/install/diablo_ctrl:/home/diablo/diablo_ws/install/diablo_body:/home/diablo/diablo_ws/install/diablo_utils:/home/diablo/diablo_ws/install/motion_msgs:/home/diablo/diablo_ws/install/ception_msgs:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy LD_LIBRARY_PATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/diablo/diablo_torqueHDRL/build/jointctrlsdk -- -j4 -l4
+[25.541s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk': AMENT_PREFIX_PATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces:/home/diablo/diablo_ws/install/diablo_ctrl:/home/diablo/diablo_ws/install/diablo_body:/home/diablo/diablo_ws/install/diablo_utils:/home/diablo/diablo_ws/install/motion_msgs:/home/diablo/diablo_ws/install/ception_msgs:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy LD_LIBRARY_PATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/diablo/diablo_torqueHDRL/build/jointctrlsdk
+[25.647s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jointctrlsdk)
+[25.651s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/diablo/diablo_torqueHDRL/build/jointctrlsdk' returned '0': AMENT_PREFIX_PATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces:/home/diablo/diablo_ws/install/diablo_ctrl:/home/diablo/diablo_ws/install/diablo_body:/home/diablo/diablo_ws/install/diablo_utils:/home/diablo/diablo_ws/install/motion_msgs:/home/diablo/diablo_ws/install/ception_msgs:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy LD_LIBRARY_PATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/diablo/diablo_torqueHDRL/build/jointctrlsdk
+[25.683s] Level 1:colcon.colcon_core.environment:checking '/home/diablo/diablo_torqueHDRL/install/jointctrlsdk' for CMake module files
+[25.687s] Level 1:colcon.colcon_core.environment:checking '/home/diablo/diablo_torqueHDRL/install/jointctrlsdk' for CMake config files
+[25.690s] Level 1:colcon.colcon_core.shell:create_environment_hook('jointctrlsdk', 'cmake_prefix_path')
+[25.692s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/hook/cmake_prefix_path.ps1'
+[25.697s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/hook/cmake_prefix_path.dsv'
+[25.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/hook/cmake_prefix_path.sh'
+[25.704s] Level 1:colcon.colcon_core.environment:checking '/home/diablo/diablo_torqueHDRL/install/jointctrlsdk/lib'
+[25.705s] Level 1:colcon.colcon_core.shell:create_environment_hook('jointctrlsdk', 'ld_library_path_lib')
+[25.707s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/hook/ld_library_path_lib.ps1'
+[25.710s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/hook/ld_library_path_lib.dsv'
+[25.711s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/hook/ld_library_path_lib.sh'
+[25.713s] Level 1:colcon.colcon_core.environment:checking '/home/diablo/diablo_torqueHDRL/install/jointctrlsdk/bin'
+[25.714s] Level 1:colcon.colcon_core.environment:checking '/home/diablo/diablo_torqueHDRL/install/jointctrlsdk/lib/pkgconfig/jointctrlsdk.pc'
+[25.715s] Level 1:colcon.colcon_core.environment:checking '/home/diablo/diablo_torqueHDRL/install/jointctrlsdk/lib/python3.8/site-packages'
+[25.716s] Level 1:colcon.colcon_core.environment:checking '/home/diablo/diablo_torqueHDRL/install/jointctrlsdk/bin'
+[25.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/package.ps1'
+[25.723s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/package.dsv'
+[25.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/package.sh'
+[25.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/package.bash'
+[25.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/package.zsh'
+[25.742s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/colcon-core/packages/jointctrlsdk)
+[25.956s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jointctrlsdk)
+[25.960s] Level 1:colcon.colcon_core.environment:checking '/home/diablo/diablo_torqueHDRL/install/jointctrlsdk' for CMake module files
+[25.963s] Level 1:colcon.colcon_core.environment:checking '/home/diablo/diablo_torqueHDRL/install/jointctrlsdk' for CMake config files
+[25.965s] Level 1:colcon.colcon_core.shell:create_environment_hook('jointctrlsdk', 'cmake_prefix_path')
+[25.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/hook/cmake_prefix_path.ps1'
+[25.969s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/hook/cmake_prefix_path.dsv'
+[25.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/hook/cmake_prefix_path.sh'
+[25.975s] Level 1:colcon.colcon_core.environment:checking '/home/diablo/diablo_torqueHDRL/install/jointctrlsdk/lib'
+[25.976s] Level 1:colcon.colcon_core.shell:create_environment_hook('jointctrlsdk', 'ld_library_path_lib')
+[25.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/hook/ld_library_path_lib.ps1'
+[25.980s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/hook/ld_library_path_lib.dsv'
+[25.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/hook/ld_library_path_lib.sh'
+[25.984s] Level 1:colcon.colcon_core.environment:checking '/home/diablo/diablo_torqueHDRL/install/jointctrlsdk/bin'
+[25.984s] Level 1:colcon.colcon_core.environment:checking '/home/diablo/diablo_torqueHDRL/install/jointctrlsdk/lib/pkgconfig/jointctrlsdk.pc'
+[25.985s] Level 1:colcon.colcon_core.environment:checking '/home/diablo/diablo_torqueHDRL/install/jointctrlsdk/lib/python3.8/site-packages'
+[25.986s] Level 1:colcon.colcon_core.environment:checking '/home/diablo/diablo_torqueHDRL/install/jointctrlsdk/bin'
+[25.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/package.ps1'
+[25.991s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/package.dsv'
+[25.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/package.sh'
+[25.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/package.bash'
+[25.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/jointctrlsdk/package.zsh'
+[26.001s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/diablo/diablo_torqueHDRL/install/jointctrlsdk/share/colcon-core/packages/jointctrlsdk)
+[26.002s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[26.003s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[26.004s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[26.004s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[26.050s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[26.051s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[26.052s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[26.475s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[26.478s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/diablo/diablo_torqueHDRL/install/local_setup.ps1'
+[26.485s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/diablo/diablo_torqueHDRL/install/_local_setup_util_ps1.py'
+[26.493s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/diablo/diablo_torqueHDRL/install/setup.ps1'
+[26.502s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/diablo/diablo_torqueHDRL/install/local_setup.sh'
+[26.507s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/diablo/diablo_torqueHDRL/install/_local_setup_util_sh.py'
+[26.510s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/diablo/diablo_torqueHDRL/install/setup.sh'
+[26.518s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/diablo/diablo_torqueHDRL/install/local_setup.bash'
+[26.521s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/diablo/diablo_torqueHDRL/install/setup.bash'
+[26.528s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/diablo/diablo_torqueHDRL/install/local_setup.zsh'
+[26.531s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/diablo/diablo_torqueHDRL/install/setup.zsh'

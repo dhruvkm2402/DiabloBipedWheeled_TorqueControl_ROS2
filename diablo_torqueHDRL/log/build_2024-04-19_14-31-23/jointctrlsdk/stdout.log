@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target jointctrlsdk_core[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/jointctrlsdk_core.dir/src/serial_handle.cpp.o[0m
+[ 33%] [32m[1mLinking CXX shared library libjointctrlsdk_core.so[0m
+[ 66%] Built target jointctrlsdk_core
+[ 83%] [32m[1mLinking CXX executable diablo_torquesubscriber[0m

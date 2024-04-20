@@ -1,0 +1,54 @@
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:8:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass TorqueSubscriber[m[K’
+    8 | class [01;31m[KTorqueSubscriber[m[K : public rclcpp::Node
+      |       [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:2[m[K:
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/include/diablo_tctrl.hpp:9:7:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass TorqueSubscriber[m[K’
+    9 | class [01;36m[KTorqueSubscriber[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:44:5:[m[K [01;31m[Kerror: [m[K‘[01m[KSerialHandle[m[K’ was not declared in this scope
+   44 |     [01;31m[KSerialHandle[m[K handle;
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:45:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmotor_torque_t[m[K’ was not declared in this scope
+   45 |     [01;31m[Kmotor_torque_t[m[K send_struct;
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:46:5:[m[K [01;31m[Kerror: [m[K‘[01m[Khandle[m[K’ was not declared in this scope
+   46 |     [01;31m[Khandle[m[K.serial_init("/dev/ttyAMA0");
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:54:60:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kconst std::array<float, 6>&[m[K’ from expression of type ‘[01m[K<unresolved overloaded function type>[m[K’
+   54 |         const std::array<float, 6>& torque_values2 = [01;31m[Knode->getTorqueValues[m[K;
+      |                                                      [01;31m[K~~~~~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:59:19:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K=[m[K’ token
+   59 |         for(size_t[01;31m[K=[m[Ki; i<torque_values2.size();i++){
+      |                   [01;31m[K^[m[K
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:59:19:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K=[m[K’ token
+   59 |         for(size_t[01;31m[K=[m[Ki; i<torque_values2.size();i++){
+      |                   [01;31m[K^[m[K
+      |                   [32m[K;[m[K
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:59:19:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K=[m[K’ token
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:59:20:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+   59 |         for(size_t=[01;31m[Ki[m[K; i<torque_values2.size();i++){
+      |                    [01;31m[K^[m[K
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:59:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+   59 |         for[34m[K([m[Ksize_t=i; i<torque_values2.size()[01;31m[K;[m[Ki++){
+      |            [34m[K~[m[K                                 [01;31m[K^[m[K
+      |                                              [32m[K)[m[K
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:59:9:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kfor[m[K’ clause does not guard... [[01;35m[K-Wmisleading-indentation[m[K]
+   59 |         [01;35m[Kfor[m[K(size_t=i; i<torque_values2.size();i++){
+      |         [01;35m[K^~~[m[K
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:59:47:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kfor[m[K’
+   59 |         for(size_t=i; i<torque_values2.size();[01;36m[Ki[m[K++){
+      |                                               [01;36m[K^[m[K
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:59:47:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:63:47:[m[K [01;31m[Kerror: [m[K‘[01m[Ksend_struct[m[K’ was not declared in this scope
+   63 |         handle.create_package(torque_values2, [01;31m[Ksend_struct[m[K);
+      |                                               [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:74:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kusleep[m[K’ was not declared in this scope
+   74 |                 [01;31m[Kusleep[m[K(10000);
+      |                 [01;31m[K^~~~~~[m[K
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:82:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kusleep[m[K’ was not declared in this scope
+   82 |         [01;31m[Kusleep[m[K(1500);
+      |         [01;31m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/diablo_torquesubscriber.dir/build.make:63: CMakeFiles/diablo_torquesubscriber.dir/src/diablo_torque.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/diablo_torquesubscriber.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

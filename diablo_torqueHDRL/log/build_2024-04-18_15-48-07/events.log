@@ -1,0 +1,231 @@
+[0.000000] (-) TimerEvent: {}
+[0.001565] (-) JobUnselected: {'identifier': 'jointctrlsdk'}
+[0.002016] (torque_interfaces) JobQueued: {'identifier': 'torque_interfaces', 'dependencies': OrderedDict()}
+[0.003081] (torque_interfaces) JobStarted: {'identifier': 'torque_interfaces'}
+[0.073966] (torque_interfaces) JobProgress: {'identifier': 'torque_interfaces', 'progress': 'cmake'}
+[0.078511] (torque_interfaces) JobProgress: {'identifier': 'torque_interfaces', 'progress': 'build'}
+[0.082172] (torque_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/diablo/diablo_torqueHDRL/build/torque_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/diablo/diablo_torqueHDRL/build/torque_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en_US'), ('USER', 'diablo'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1118'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/diablo/diablo_ws/install/diablo_body/lib:/home/diablo/diablo_ws/install/diablo_utils/lib:/home/diablo/diablo_ws/install/motion_msgs/lib:/home/diablo/diablo_ws/install/ception_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/diablo'), ('OLDPWD', '/home/diablo/diablo_torqueHDRL/src'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('COLCON_PREFIX_PATH', '/home/diablo/diablo_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'diablo'), ('WINDOWID', '54525958'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/diablo-desktop:@/tmp/.ICE-unix/986,unix/diablo-desktop:/tmp/.ICE-unix/986'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/diablo/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '5'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/diablo'), ('AMENT_PREFIX_PATH', '/home/diablo/diablo_ws/install/diablo_ctrl:/home/diablo/diablo_ws/install/diablo_body:/home/diablo/diablo_ws/install/diablo_utils:/home/diablo/diablo_ws/install/diablo_teleop:/home/diablo/diablo_ws/install/motion_msgs:/home/diablo/diablo_ws/install/ception_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('XDG_VTNR', '7'), ('PWD', '/home/diablo/diablo_torqueHDRL/build/torque_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/mate:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/diablo/diablo_ws/install/diablo_teleop/lib/python3.8/site-packages:/home/diablo/diablo_ws/install/motion_msgs/lib/python3.8/site-packages:/home/diablo/diablo_ws/install/ception_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/diablo/diablo_ws/install/diablo_ctrl:/home/diablo/diablo_ws/install/diablo_body:/home/diablo/diablo_ws/install/diablo_utils:/home/diablo/diablo_ws/install/motion_msgs:/home/diablo/diablo_ws/install/ception_msgs:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy')]), 'shell': False}
+[0.099543] (-) TimerEvent: {}
+[0.201852] (-) TimerEvent: {}
+[0.241308] (torque_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.302015] (-) TimerEvent: {}
+[0.352968] (torque_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.353717] (torque_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.402183] (-) TimerEvent: {}
+[0.502923] (-) TimerEvent: {}
+[0.603690] (-) TimerEvent: {}
+[0.704423] (-) TimerEvent: {}
+[0.805135] (-) TimerEvent: {}
+[0.905909] (-) TimerEvent: {}
+[1.006582] (-) TimerEvent: {}
+[1.107259] (-) TimerEvent: {}
+[1.208100] (-) TimerEvent: {}
+[1.252087] (torque_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.264784] (torque_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.279287] (torque_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.308248] (-) TimerEvent: {}
+[1.408994] (-) TimerEvent: {}
+[1.509763] (-) TimerEvent: {}
+[1.610558] (-) TimerEvent: {}
+[1.711297] (-) TimerEvent: {}
+[1.812048] (-) TimerEvent: {}
+[1.912818] (-) TimerEvent: {}
+[2.013549] (-) TimerEvent: {}
+[2.114298] (-) TimerEvent: {}
+[2.215173] (-) TimerEvent: {}
+[2.316163] (-) TimerEvent: {}
+[2.416895] (-) TimerEvent: {}
+[2.517685] (-) TimerEvent: {}
+[2.605065] (torque_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.617837] (-) TimerEvent: {}
+[2.702696] (torque_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[2.718005] (-) TimerEvent: {}
+[2.818763] (-) TimerEvent: {}
+[2.919501] (-) TimerEvent: {}
+[2.944655] (torque_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[3.019706] (-) TimerEvent: {}
+[3.120799] (-) TimerEvent: {}
+[3.221726] (-) TimerEvent: {}
+[3.322605] (-) TimerEvent: {}
+[3.423359] (-) TimerEvent: {}
+[3.524349] (-) TimerEvent: {}
+[3.625577] (-) TimerEvent: {}
+[3.649067] (torque_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[3.725764] (-) TimerEvent: {}
+[3.826511] (-) TimerEvent: {}
+[3.927297] (-) TimerEvent: {}
+[4.028121] (-) TimerEvent: {}
+[4.128974] (-) TimerEvent: {}
+[4.229939] (-) TimerEvent: {}
+[4.330685] (-) TimerEvent: {}
+[4.431629] (-) TimerEvent: {}
+[4.532487] (-) TimerEvent: {}
+[4.633260] (-) TimerEvent: {}
+[4.734071] (-) TimerEvent: {}
+[4.834836] (-) TimerEvent: {}
+[4.935569] (-) TimerEvent: {}
+[5.036378] (-) TimerEvent: {}
+[5.055765] (torque_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.136563] (-) TimerEvent: {}
+[5.237313] (-) TimerEvent: {}
+[5.338066] (-) TimerEvent: {}
+[5.338809] (torque_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.438215] (-) TimerEvent: {}
+[5.461987] (torque_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[5.463348] (torque_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[5.538384] (-) TimerEvent: {}
+[5.577580] (torque_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.578258] (torque_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[5.578641] (torque_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[5.638573] (-) TimerEvent: {}
+[5.735884] (torque_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[5.738716] (-) TimerEvent: {}
+[5.783876] (torque_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[5.798519] (torque_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.806513] (torque_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.835173] (torque_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.838893] (-) TimerEvent: {}
+[5.939659] (-) TimerEvent: {}
+[6.040391] (-) TimerEvent: {}
+[6.061373] (torque_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[6.079782] (torque_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/diablo/diablo_torqueHDRL/build/torque_interfaces\n'}
+[6.140584] (-) TimerEvent: {}
+[6.241381] (-) TimerEvent: {}
+[6.256557] (torque_interfaces) StdoutLine: {'line': b'[  3%] Built target torque_interfaces__cpp\n'}
+[6.275323] (torque_interfaces) StdoutLine: {'line': b'[ 12%] Built target torque_interfaces__rosidl_generator_c\n'}
+[6.341688] (-) TimerEvent: {}
+[6.400230] (torque_interfaces) StdoutLine: {'line': b'[ 22%] Built target torque_interfaces__rosidl_typesupport_cpp\n'}
+[6.411420] (torque_interfaces) StdoutLine: {'line': b'[ 32%] Built target torque_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[6.422335] (torque_interfaces) StdoutLine: {'line': b'[ 41%] Built target torque_interfaces__rosidl_typesupport_introspection_c\n'}
+[6.441921] (-) TimerEvent: {}
+[6.452880] (torque_interfaces) StdoutLine: {'line': b'[ 51%] Built target torque_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[6.540690] (torque_interfaces) StdoutLine: {'line': b'[ 61%] Built target torque_interfaces__rosidl_typesupport_c\n'}
+[6.542092] (-) TimerEvent: {}
+[6.642928] (torque_interfaces) StdoutLine: {'line': b'[ 70%] Built target torque_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[6.643727] (-) TimerEvent: {}
+[6.744609] (-) TimerEvent: {}
+[6.756494] (torque_interfaces) StdoutLine: {'line': b'[ 70%] Built target torque_interfaces\n'}
+[6.844817] (-) TimerEvent: {}
+[6.868793] (torque_interfaces) StdoutLine: {'line': b'[ 74%] Built target torque_interfaces__py\n'}
+[6.945003] (-) TimerEvent: {}
+[7.042283] (torque_interfaces) StdoutLine: {'line': b'[ 80%] Built target torque_interfaces__python\n'}
+[7.045201] (-) TimerEvent: {}
+[7.146025] (-) TimerEvent: {}
+[7.225253] (torque_interfaces) StdoutLine: {'line': b'[ 93%] Built target torque_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[7.226805] (torque_interfaces) StdoutLine: {'line': b'[ 93%] Built target torque_interfaces__rosidl_typesupport_c__pyext\n'}
+[7.230167] (torque_interfaces) StdoutLine: {'line': b'[100%] Built target torque_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.246229] (-) TimerEvent: {}
+[7.282920] (torque_interfaces) CommandEnded: {'returncode': 0}
+[7.346586] (-) TimerEvent: {}
+[7.447653] (-) TimerEvent: {}
+[7.548349] (-) TimerEvent: {}
+[7.640687] (torque_interfaces) JobProgress: {'identifier': 'torque_interfaces', 'progress': 'install'}
+[7.648779] (-) TimerEvent: {}
+[7.692128] (torque_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/diablo/diablo_torqueHDRL/build/torque_interfaces'], 'cwd': '/home/diablo/diablo_torqueHDRL/build/torque_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en_US'), ('USER', 'diablo'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1118'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/diablo/diablo_ws/install/diablo_body/lib:/home/diablo/diablo_ws/install/diablo_utils/lib:/home/diablo/diablo_ws/install/motion_msgs/lib:/home/diablo/diablo_ws/install/ception_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/diablo'), ('OLDPWD', '/home/diablo/diablo_torqueHDRL/src'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('COLCON_PREFIX_PATH', '/home/diablo/diablo_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'diablo'), ('WINDOWID', '54525958'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/diablo-desktop:@/tmp/.ICE-unix/986,unix/diablo-desktop:/tmp/.ICE-unix/986'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/diablo/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '5'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/diablo'), ('AMENT_PREFIX_PATH', '/home/diablo/diablo_ws/install/diablo_ctrl:/home/diablo/diablo_ws/install/diablo_body:/home/diablo/diablo_ws/install/diablo_utils:/home/diablo/diablo_ws/install/diablo_teleop:/home/diablo/diablo_ws/install/motion_msgs:/home/diablo/diablo_ws/install/ception_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('XDG_VTNR', '7'), ('PWD', '/home/diablo/diablo_torqueHDRL/build/torque_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/mate:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/diablo/diablo_ws/install/diablo_teleop/lib/python3.8/site-packages:/home/diablo/diablo_ws/install/motion_msgs/lib/python3.8/site-packages:/home/diablo/diablo_ws/install/ception_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/diablo/diablo_ws/install/diablo_ctrl:/home/diablo/diablo_ws/install/diablo_body:/home/diablo/diablo_ws/install/diablo_utils:/home/diablo/diablo_ws/install/motion_msgs:/home/diablo/diablo_ws/install/ception_msgs:/home/diablo/diablo_ws/install/diablo_teleop:/opt/ros/foxy')]), 'shell': False}
+[7.744525] (torque_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.745392] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/ament_index/resource_index/rosidl_interfaces/torque_interfaces\n'}
+[7.746020] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces\n'}
+[7.746524] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg\n'}
+[7.747019] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.747476] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/torque.h\n'}
+[7.747873] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/detail\n'}
+[7.748345] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/detail/torque__struct.h\n'}
+[7.748809] (-) TimerEvent: {}
+[7.749463] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/detail/torque__functions.c\n'}
+[7.750009] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/detail/torque__functions.h\n'}
+[7.750419] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/detail/torque__type_support.h\n'}
+[7.750783] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/environment/library_path.sh\n'}
+[7.751102] (torque_interfaces) StdoutLine: {'line': b'-- Installing: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/environment/library_path.dsv\n'}
+[7.751639] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/libtorque_interfaces__rosidl_generator_c.so\n'}
+[7.753085] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces\n'}
+[7.753683] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg\n'}
+[7.754235] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.754666] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/detail\n'}
+[7.755047] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/detail/torque__rosidl_typesupport_fastrtps_c.h\n'}
+[7.756081] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/libtorque_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[7.757527] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces\n'}
+[7.758052] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg\n'}
+[7.758488] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.758917] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/detail\n'}
+[7.759429] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/detail/torque__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.759886] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/detail/dds_fastrtps\n'}
+[7.761016] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/libtorque_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.762795] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces\n'}
+[7.763341] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg\n'}
+[7.763817] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.764217] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/detail\n'}
+[7.764696] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/detail/torque__rosidl_typesupport_introspection_c.h\n'}
+[7.765051] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/detail/torque__type_support.c\n'}
+[7.766061] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/libtorque_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[7.768240] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/libtorque_interfaces__rosidl_typesupport_c.so\n'}
+[7.769584] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces\n'}
+[7.770105] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg\n'}
+[7.770590] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/torque.hpp\n'}
+[7.771001] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/detail\n'}
+[7.771409] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/detail/torque__struct.hpp\n'}
+[7.771854] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/detail/torque__traits.hpp\n'}
+[7.772322] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/detail/torque__builder.hpp\n'}
+[7.772724] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces\n'}
+[7.773105] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg\n'}
+[7.773576] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/detail\n'}
+[7.773989] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/detail/torque__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.774313] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/include/torque_interfaces/msg/detail/torque__type_support.cpp\n'}
+[7.774886] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/libtorque_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[7.777623] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/libtorque_interfaces__rosidl_typesupport_cpp.so\n'}
+[7.779028] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/environment/pythonpath.sh\n'}
+[7.779532] (torque_interfaces) StdoutLine: {'line': b'-- Installing: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/environment/pythonpath.dsv\n'}
+[7.780907] (torque_interfaces) StdoutLine: {'line': b'-- Installing: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/python3.8/site-packages/torque_interfaces/__init__.py\n'}
+[7.849021] (-) TimerEvent: {}
+[7.930151] (torque_interfaces) StdoutLine: {'line': b"Compiling '/home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/python3.8/site-packages/torque_interfaces/__init__.py'...\n"}
+[7.949334] (-) TimerEvent: {}
+[7.955016] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/python3.8/site-packages/torque_interfaces/msg\n'}
+[7.963103] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/python3.8/site-packages/torque_interfaces/msg/_torque.py\n'}
+[7.963791] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/python3.8/site-packages/torque_interfaces/msg/__init__.py\n'}
+[7.964258] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/python3.8/site-packages/torque_interfaces/msg/_torque_s.c\n'}
+[7.966232] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/python3.8/site-packages/torque_interfaces/torque_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[7.970363] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/python3.8/site-packages/torque_interfaces/torque_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[7.974299] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/python3.8/site-packages/torque_interfaces/torque_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[7.979252] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/lib/libtorque_interfaces__python.so\n'}
+[7.980239] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/msg/Torque.idl\n'}
+[7.980818] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/msg/Torque.msg\n'}
+[7.981333] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/ament_index/resource_index/package_run_dependencies/torque_interfaces\n'}
+[7.981887] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/ament_index/resource_index/parent_prefix_path/torque_interfaces\n'}
+[7.982373] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/environment/ament_prefix_path.sh\n'}
+[7.982799] (torque_interfaces) StdoutLine: {'line': b'-- Installing: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/environment/ament_prefix_path.dsv\n'}
+[7.984090] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/environment/path.sh\n'}
+[7.984655] (torque_interfaces) StdoutLine: {'line': b'-- Installing: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/environment/path.dsv\n'}
+[7.985882] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/local_setup.bash\n'}
+[7.986434] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/local_setup.sh\n'}
+[7.986892] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/local_setup.zsh\n'}
+[7.987318] (torque_interfaces) StdoutLine: {'line': b'-- Installing: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/local_setup.dsv\n'}
+[7.988457] (torque_interfaces) StdoutLine: {'line': b'-- Installing: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/package.dsv\n'}
+[7.989877] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/ament_index/resource_index/packages/torque_interfaces\n'}
+[7.990853] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/torque_interfaces__rosidl_generator_cExport.cmake\n'}
+[7.991362] (torque_interfaces) StdoutLine: {'line': b'-- Installing: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/torque_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.993653] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/torque_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.994243] (torque_interfaces) StdoutLine: {'line': b'-- Installing: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/torque_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.996333] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/torque_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[7.996852] (torque_interfaces) StdoutLine: {'line': b'-- Installing: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/torque_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.999012] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/torque_interfaces__rosidl_generator_cppExport.cmake\n'}
+[8.000099] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/torque_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.000677] (torque_interfaces) StdoutLine: {'line': b'-- Installing: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/torque_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[8.002928] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/torque_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[8.003497] (torque_interfaces) StdoutLine: {'line': b'-- Installing: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/torque_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[8.005000] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[8.005563] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.006061] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.006504] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.007025] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.007708] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[8.008518] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[8.009659] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/torque_interfacesConfig.cmake\n'}
+[8.010232] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/cmake/torque_interfacesConfig-version.cmake\n'}
+[8.010627] (torque_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/diablo/diablo_torqueHDRL/install/torque_interfaces/share/torque_interfaces/package.xml\n'}
+[8.016802] (torque_interfaces) CommandEnded: {'returncode': 0}
+[8.049538] (-) TimerEvent: {}
+[8.150778] (-) TimerEvent: {}
+[8.251713] (-) TimerEvent: {}
+[8.352416] (-) TimerEvent: {}
+[8.453182] (-) TimerEvent: {}
+[8.521880] (torque_interfaces) JobEnded: {'identifier': 'torque_interfaces', 'rc': 0}
+[8.524896] (-) EventReactorShutdown: {}

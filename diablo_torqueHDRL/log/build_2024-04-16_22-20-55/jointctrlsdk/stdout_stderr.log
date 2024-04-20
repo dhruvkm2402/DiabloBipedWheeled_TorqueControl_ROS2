@@ -1,0 +1,19 @@
+[ 66%] Built target jointctrlsdk_core
+[35m[1mScanning dependencies of target diablo_torquesubscriber[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/diablo_torquesubscriber.dir/src/diablo_torque.cpp.o[0m
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:60:60:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kconst float&[m[K’ from expression of type ‘[01m[Kconst std::array<float, 6>[m[K’
+   60 |         const float& torque_values2 = [01;31m[Knode->getTorqueValues()[m[K;
+      |                                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:65:42:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kconst float[size_t {aka long unsigned int}][m[K’ for array subscript
+   65 |             std::cout << torque_values2[i[01;31m[K][m[K << " ";
+      |                                          [01;31m[K^[m[K
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:68:31:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst float[m[K’ to ‘[01m[K_Float32*[m[K’ {aka ‘[01m[Kfloat*[m[K’}
+   68 |         handle.create_package([01;31m[Ktorque_values2[m[K, send_struct);
+      |                               [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                               [01;31m[K|[m[K
+      |                               [01;31m[Kconst float[m[K
+In file included from [01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:4[m[K:
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/include/serial_handle.hpp:35:35:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid SerialHandle::create_package(_Float32*, motor_torque_t&)[m[K’
+   35 |     void create_package([01;36m[K_Float32* motor_tor[m[K,motor_torque_t &motor_package);
+      |                         [01;36m[K~~~~~~~~~~^~~~~~~~~[m[K

@@ -1,0 +1,10 @@
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:49:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstatus[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   49 |     uint8_t [01;35m[Kstatus[m[K = 10;
+      |             [01;35m[K^~~~~~[m[K
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:50:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcounter[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   50 |     uint32_t [01;35m[Kcounter[m[K = 0;
+      |              [01;35m[K^~~~~~~[m[K
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:52:11:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ktorque_values2[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   52 |     float [01;35m[Ktorque_values2[m[K[6];
+      |           [01;35m[K^~~~~~~~~~~~~~[m[K

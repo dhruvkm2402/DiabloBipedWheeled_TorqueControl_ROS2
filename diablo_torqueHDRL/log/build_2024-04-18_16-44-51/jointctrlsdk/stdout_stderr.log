@@ -1,0 +1,14 @@
+[ 66%] Built target jointctrlsdk_core
+[35m[1mScanning dependencies of target diablo_torquesubscriber[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/diablo_torquesubscriber.dir/src/diablo_torque.cpp.o[0m
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:58:55:[m[K [01;31m[Kerror: [m[Karray must be initialized with a brace-enclosed initializer
+   58 |         float torque_values2[6]= [01;31m[Knode->getTorqueValues()[m[K;
+      |                                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/diablo/diablo_torqueHDRL/src/jointctrlsdk/src/diablo_torque.cpp:64:33:[m[K [01;31m[Kerror: [m[K‘[01m[Ktorque_values[m[K’ was not declared in this scope; did you mean ‘[01m[Ktorque_values2[m[K’?
+   64 |             torque_values2[i] = [01;31m[Ktorque_values[m[K[i];
+      |                                 [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                 [32m[Ktorque_values2[m[K
+make[2]: *** [CMakeFiles/diablo_torquesubscriber.dir/build.make:63: CMakeFiles/diablo_torquesubscriber.dir/src/diablo_torque.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/diablo_torquesubscriber.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
