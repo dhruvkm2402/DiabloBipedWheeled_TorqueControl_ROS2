@@ -34,8 +34,7 @@ private:
                     torque_values_[0], torque_values_[1], torque_values_[2],
                     torque_values_[3], torque_values_[4], torque_values_[5]);
 
-        // Use the torque values as needed
-        // ...
+      
     }
 
     std::array<float, 6> torque_values_;
@@ -62,15 +61,7 @@ int main(int argc, char **argv)
     
     while (rclcpp::ok()) // Continuously loop as long as the ROS 2 node is running
     {
-        // Assuming torque values are received and stored in the TorqueSubscriber instance
-        
-        
-        //float torque_values2[6] = {1.0,2.0,2.0,1.0,1.0,2.0};
-       // float torque_values2[6] = {*torque_values};
-        
        
-            //std::cout << std::endl;
-    
         rclcpp::spin_some(node);
         const auto& torque_values = node->getTorqueValues();
         for(int i=0; i<6; ++i)
