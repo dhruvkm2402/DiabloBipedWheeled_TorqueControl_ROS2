@@ -11,9 +11,9 @@ colcon build jointctrlsdk
 ```
 Eventually, as you make changes, you'd want to avoid rebuilding every package. For that use the following command
 ```bash
---packages-select jointctrlsdk
+colcon build --packages-select jointctrlsdk
 ```
-
+# Initial Output
 https://github.com/dhruvkm2402/DiabloBipedWheeled_TorqueControl_ROS2/assets/99369975/685b6bbe-f0a1-4cad-b627-e5498a12e44b
 
 
